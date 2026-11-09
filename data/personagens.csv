@@ -1,0 +1,35 @@
+id,nome,regiao,asset
+ajudante-ovelheiro,Ajudante Ovelheiro,Campos dos Pinhais,icons/Characters/SPR_Icon_Character_AjudanteOvelheiro.png
+artesa,Artesa,Lagoa Serena,icons/Characters/SPR_Icon_Character_Artesa.png
+artista,Artista,Campos dos Pinhais,icons/Characters/SPR_Icon_Character_Artista.png
+barqueira,Barqueira,Lagoa Serena,icons/Characters/SPR_Icon_Character_Barqueira.png
+benzedeira,Benzedeira,Mata da Figueira,icons/Characters/SPR_Icon_Character_Benzedeira.png
+botanista,Botanista,Mata da Figueira,icons/Characters/SPR_Icon_Character_Botanista.png
+caipora,Caipora,Mata da Figueira,icons/Characters/SPR_Icon_Character_Caipora.png
+carpinteira,Escultora,Campos dos Pinhais,icons/Characters/SPR_Icon_Character_Carpinteira.png
+estudante-de-ervas,Estudante De Ervas,Mata da Figueira,icons/Characters/SPR_Icon_Character_EstudanteDeErvas.png
+ferreiro,Ferreiro,Lagoa Serena,icons/Characters/SPR_Icon_Character_Ferreiro.png
+gaucho,Gaucho,,icons/Characters/SPR_Icon_Character_Gaucho.png
+gaucho-boat,Gaucho Boat,,icons/Characters/SPR_Icon_Character_GauchoBoat.png
+gaucho-cusco,Gaucho Cusco,,icons/Characters/SPR_Icon_Character_GauchoCusco.png
+granjeiro,Granjeiro,Campos dos Pinhais,icons/Characters/SPR_Icon_Character_Granjeiro.png
+madereiro,Construtor,Campos dos Pinhais,icons/Characters/SPR_Icon_Character_Madereiro.png
+marceneira,Marceneira,Campos dos Pinhais,icons/Characters/SPR_Icon_Character_Marceneira.png
+marisqueira,Marisqueira,,icons/Characters/SPR_Icon_Character_Marisqueira.png
+mercador,Mercador,Campos dos Pinhais,icons/Characters/SPR_Icon_Character_Mercador.png
+minerador,Minerador,Campos dos Pinhais,icons/Characters/SPR_Icon_Character_Minerador.png
+ovelheiro,Ovelheiro,Campos dos Pinhais,icons/Characters/SPR_Icon_Character_Ovelheiro.png
+pescador,Pescador,Lagoa Serena,icons/Characters/SPR_Icon_Character_Pescador.png
+prenda,Prenda,Campos dos Pinhais,icons/Characters/SPR_Icon_Character_Prenda.png
+remador,Remador,Lagoa Serena,icons/Characters/SPR_Icon_Character_Remador.png
+ribeirinha,Ribeirinha,Lagoa Serena,icons/Characters/SPR_Icon_Character_Ribeirinha.png
+saci,Saci,,icons/Characters/SPR_Icon_Character_Saci.png
+saci-corrupted,Saci Corrupted,,icons/Characters/SPR_Icon_Character_SaciCorrupted.png
+trovador,Trovador,Mata da Figueira,icons/Characters/SPR_Icon_Character_Trovador.png
+vaqueiro,Vaqueiro,Mata da Figueira,icons/Characters/SPR_Icon_Character_Vaqueiro.png
+viajante-campos,Viajante Campos,Campos dos Pinhais,icons/Characters/SPR_Icon_Character_ViajanteCampos.png
+viajante-lagoa,Viajante Lagoa,Lagoa Serena,icons/Characters/SPR_Icon_Character_ViajanteLagoa.png
+viajante-mata,Viajante Mata,Mata da Figueira,icons/Characters/SPR_Icon_Character_ViajanteMata.png
+viajantes,Viajantes,Campos dos Pinhais,icons/Characters/SPR_Icon_Character_Viajantes.png
+violinista,Violinista,Mata da Figueira,icons/Characters/SPR_Icon_Character_Violinista.png
+vizinha,Vizinha, Campos dos Pinhais,icons/Characters/SPR_Icon_Character_Vizinha.png

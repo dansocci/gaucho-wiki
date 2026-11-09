@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1d3b2e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="description" content="Guia pessoal e offline de receitas de Gaucho Origins.">
+  <title>Gaucho Origins — guia de receitas</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./assets/icon-192.png">
+  <link rel="apple-touch-icon" href="./assets/icon-192.png">
+  <link rel="stylesheet" href="./css/app.css">
+  <script>
+    try {
+      if (JSON.parse(localStorage.getItem("gaucho-origins-user-v1") || "{}").compact) {
+        document.documentElement.classList.add("compact");
+      }
+    } catch (error) {}
+  </script>
+</head>
+<body>
+  <div class="app">
+    <header class="top">
+      <div>
+        <p class="eyebrow">Guia de campo</p>
+        <h1>Gaucho Origins</h1>
+        <p class="lede">Receitas extraídas do jogo, para consultar no celular enquanto você joga.</p>
+      </div>
+      <div class="top-actions">
+        <button type="button" id="compact-button" data-action="compact" aria-pressed="false">Compacto</button>
+        <button type="button" data-action="data">Dados</button>
+      </div>
+    </header>
+    <div class="horizon" aria-hidden="true"></div>
+    <div class="toolbar">
+      <label class="search">
+        <span class="sr">Buscar</span>
+        <input id="search" type="search" placeholder="Buscar item, ingrediente, personagem ou região" enterkeyhint="search" autocomplete="off">
+      </label>
+      <div id="filters" class="filters"></div>
+    </div>
+    <div class="layout">
+      <main id="list"><p class="missing">Abrindo o guia…</p></main>
+      <section id="detail" class="detail" hidden></section>
+    </div>
+  </div>
+
+  <dialog id="help-dialog">
+    <div class="dialog-head">
+      <h2>Como usar</h2>
+      <button type="button" class="ghost" data-action="close-dialog" data-dialog="help-dialog">Fechar</button>
+    </div>
+    <div class="help-copy">
+      <p>As receitas e quantidades saíram de <strong>gaucho-recipes.csv</strong>. O app não completa nada que o arquivo não diz.</p>
+      <h3>Durante o jogo</h3>
+      <p>No Android, abra o guia e o jogo em tela dividida. O modo compacto deixa a lista mais curta para caber ao lado. Uma página instalável não consegue flutuar por cima do jogo: isso pediria um aplicativo nativo com a permissão de exibir sobre outros apps.</p>
+      <h3>Ficha</h3>
+      <p>Toque num ingrediente para abrir a ficha dele. Preencha onde conseguir, região e notas. Se a informação for sua, marque “observado no jogo”. Se ainda não souber, deixe em branco: continua como não informado.</p>
+      <h3>Calculadora</h3>
+      <p>Ela abre as receitas em cadeia, soma o que se repete e desconta o estoque, inclusive de itens do meio do caminho. Se houver duas receitas, escolha uma. “Parar nesta etapa” conta o item sem abrir a receita dele. Se a única receita do arquivo troca o item por Coin, a conta segue essa receita; pare na etapa se você consegue o item de outro jeito. Ingredientes marcados como não consumidos aparecem separados; neste CSV, todos são consumidos.</p>
+      <h3>Ícones e aparelhos</h3>
+      <p>O ícone só entra sozinho quando o nome do arquivo corresponde ao item. Os outros ficam genéricos até você escolher. Anotações ficam neste navegador. Use Dados para exportar e levar ao celular.</p>
+    </div>
+  </dialog>
+
+  <dialog id="data-dialog">
+    <div class="dialog-head">
+      <h2>Anotações deste aparelho</h2>
+      <button type="button" class="ghost" data-action="close-dialog" data-dialog="data-dialog">Fechar</button>
+    </div>
+    <div class="help-copy">
+      <p>Nomes, regiões, estoque, receitas escolhidas e ícones corrigidos ficam só neste navegador. As receitas do arquivo continuam no guia.</p>
+      <div class="row-actions">
+        <button type="button" class="terra" data-action="export">Exportar anotações</button>
+        <button type="button" class="ghost" data-action="import">Importar anotações</button>
+        <button type="button" class="ghost" data-action="reset">Apagar anotações</button>
+      </div>
+      <input id="import-file" type="file" accept="application/json" hidden>
+    </div>
+  </dialog>
+
+  <dialog id="icon-dialog">
+    <div class="dialog-head">
+      <h2>Escolher ícone</h2>
+      <button type="button" class="ghost" data-action="close-dialog" data-dialog="icon-dialog">Fechar</button>
+    </div>
+    <div id="icon-dialog-body"></div>
+  </dialog>
+
+  <script src="./js/calc.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

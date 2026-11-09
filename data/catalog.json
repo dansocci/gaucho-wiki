@@ -1,0 +1,3859 @@
+{
+  "meta": {
+    "game": "Gaucho Origins",
+    "sourceCsv": "data/gaucho-recipes.csv",
+    "recipeRows": 99,
+    "recipeCount": 73,
+    "itemCount": 88,
+    "matchedIcons": 88,
+    "unmatchedIcons": 0,
+    "peopleCount": 34,
+    "iconCount": 247,
+    "notes": [
+      "Produtos, quantidades e ingredientes vêm somente de gaucho-recipes.csv.",
+      "Neste arquivo, nao_consumir é False em todas as linhas: todo ingrediente listado é consumido.",
+      "Região, com quem conseguir e local de fabricação não estão no arquivo e ficam vazios.",
+      "O ícone só é associado quando os nomes, depois de separar camelCase e normalizar plural ou grafia óbvia, ficam iguais e únicos.",
+      "A palavra of é ignorada na comparação. leafs e leaves viram leaf; nails, gears e bricks viram nail, gear e brick.",
+      "Nomes de personagens vêm do arquivo do ícone, não de um texto do jogo."
+    ]
+  },
+  "items": [
+    {
+      "id": "ball-of-wool",
+      "name": "Ball of Wool",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_WoolBall.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_WoolBall.png",
+      "hints": []
+    },
+    {
+      "id": "wool",
+      "name": "Wool",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_Wool.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_Wool.png",
+      "hints": []
+    },
+    {
+      "id": "rose-bouquet",
+      "name": "Rose Bouquet",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_ingredient_RoseBouquet.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_ingredient_RoseBouquet.png",
+      "hints": []
+    },
+    {
+      "id": "rose",
+      "name": "Rose",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_Rose.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_Rose.png",
+      "hints": []
+    },
+    {
+      "id": "rose-tissue",
+      "name": "Rose Tissue",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_ingredient_roseTissue.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_ingredient_roseTissue.png",
+      "hints": []
+    },
+    {
+      "id": "dye-bottle-red",
+      "name": "Dye Bottle Red",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_ingredient_dye_bottle_red.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_ingredient_dye_bottle_red.png",
+      "hints": []
+    },
+    {
+      "id": "coin",
+      "name": "Coin",
+      "category": "geral",
+      "icon": "icons/General/SPR_Icon_Coin.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Coin.png",
+      "hints": []
+    },
+    {
+      "id": "cuca",
+      "name": "Cuca",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_Cuca.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_Cuca.png",
+      "hints": []
+    },
+    {
+      "id": "cassava",
+      "name": "Cassava",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_ingredient_cassava.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_ingredient_cassava.png",
+      "hints": []
+    },
+    {
+      "id": "fiber-fabric",
+      "name": "Fiber Fabric",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_FiberFabric.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_FiberFabric.png",
+      "hints": []
+    },
+    {
+      "id": "red-leaves",
+      "name": "Red Leaves",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_RedLeafs.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_RedLeafs.png",
+      "hints": []
+    },
+    {
+      "id": "medicinal-herb-red-echinacea",
+      "name": "Medicinal Herb Red Echinacea",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_Medicinal_Herb_B.png",
+      "iconMatch": "confirmada",
+      "iconFile": "SPR_Icon_Ingredient_Medicinal_Herb_B.png",
+      "hints": [
+        {
+          "icon": "icons/Ingredients/SPR_Icon_Ingredient_Medicinal_Herb_A.png",
+          "file": "SPR_Icon_Ingredient_Medicinal_Herb_A.png",
+          "reason": "Os ícones de erva se chamam Medicinal Herb A, B e C. Não dá para saber qual é qual."
+        },
+        {
+          "icon": "icons/Ingredients/SPR_Icon_Ingredient_Medicinal_Herb_B.png",
+          "file": "SPR_Icon_Ingredient_Medicinal_Herb_B.png",
+          "reason": "Os ícones de erva se chamam Medicinal Herb A, B e C. Não dá para saber qual é qual."
+        },
+        {
+          "icon": "icons/Ingredients/SPR_Icon_Ingredient_Medicinal_Herb_C.png",
+          "file": "SPR_Icon_Ingredient_Medicinal_Herb_C.png",
+          "reason": "Os ícones de erva se chamam Medicinal Herb A, B e C. Não dá para saber qual é qual."
+        }
+      ]
+    },
+    {
+      "id": "orange-wool",
+      "name": "Orange Wool",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_Orange_Wool.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_Orange_Wool.png",
+      "hints": []
+    },
+    {
+      "id": "dye-bottle-yellow",
+      "name": "Dye Bottle Yellow",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_ingredient_dye_bottle_yellow.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_ingredient_dye_bottle_yellow.png",
+      "hints": []
+    },
+    {
+      "id": "flour",
+      "name": "Flour",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_Flour.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_Flour.png",
+      "hints": []
+    },
+    {
+      "id": "wheat",
+      "name": "Wheat",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Wheat.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Wheat.png",
+      "hints": []
+    },
+    {
+      "id": "medicinal-herb-white-chamomile",
+      "name": "Medicinal Herb White Chamomile",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_Medicinal_Herb_C.png",
+      "iconMatch": "confirmada",
+      "iconFile": "SPR_Icon_Ingredient_Medicinal_Herb_C.png",
+      "hints": [
+        {
+          "icon": "icons/Ingredients/SPR_Icon_Ingredient_Medicinal_Herb_A.png",
+          "file": "SPR_Icon_Ingredient_Medicinal_Herb_A.png",
+          "reason": "Os ícones de erva se chamam Medicinal Herb A, B e C. Não dá para saber qual é qual."
+        },
+        {
+          "icon": "icons/Ingredients/SPR_Icon_Ingredient_Medicinal_Herb_B.png",
+          "file": "SPR_Icon_Ingredient_Medicinal_Herb_B.png",
+          "reason": "Os ícones de erva se chamam Medicinal Herb A, B e C. Não dá para saber qual é qual."
+        },
+        {
+          "icon": "icons/Ingredients/SPR_Icon_Ingredient_Medicinal_Herb_C.png",
+          "file": "SPR_Icon_Ingredient_Medicinal_Herb_C.png",
+          "reason": "Os ícones de erva se chamam Medicinal Herb A, B e C. Não dá para saber qual é qual."
+        }
+      ]
+    },
+    {
+      "id": "leather",
+      "name": "Leather",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_Leather.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_Leather.png",
+      "hints": []
+    },
+    {
+      "id": "raw-hide",
+      "name": "Raw Hide",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_RawHide.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_RawHide.png",
+      "hints": []
+    },
+    {
+      "id": "grain-salt",
+      "name": "Grain Salt",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_CoarseSalt.png",
+      "iconMatch": "confirmada",
+      "iconFile": "SPR_Icon_Ingredient_CoarseSalt.png",
+      "hints": [
+        {
+          "icon": "icons/Ingredients/SPR_Icon_Ingredient_CoarseSalt.png",
+          "file": "SPR_Icon_Ingredient_CoarseSalt.png",
+          "reason": "O arquivo se chama CoarseSalt e a receita diz Grain Salt. Não associado."
+        }
+      ]
+    },
+    {
+      "id": "ball-of-wool-orange",
+      "name": "Ball of Wool Orange",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_WoolBallOrange.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_WoolBallOrange.png",
+      "hints": []
+    },
+    {
+      "id": "yellow-leaves",
+      "name": "Yellow Leaves",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_YellowLeafs.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_YellowLeafs.png",
+      "hints": []
+    },
+    {
+      "id": "medicinal-herb-orange-calendula",
+      "name": "Medicinal Herb Orange Calendula",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_Medicinal_Herb_A.png",
+      "iconMatch": "confirmada",
+      "iconFile": "SPR_Icon_Ingredient_Medicinal_Herb_A.png",
+      "hints": [
+        {
+          "icon": "icons/Ingredients/SPR_Icon_Ingredient_Medicinal_Herb_A.png",
+          "file": "SPR_Icon_Ingredient_Medicinal_Herb_A.png",
+          "reason": "Os ícones de erva se chamam Medicinal Herb A, B e C. Não dá para saber qual é qual."
+        },
+        {
+          "icon": "icons/Ingredients/SPR_Icon_Ingredient_Medicinal_Herb_B.png",
+          "file": "SPR_Icon_Ingredient_Medicinal_Herb_B.png",
+          "reason": "Os ícones de erva se chamam Medicinal Herb A, B e C. Não dá para saber qual é qual."
+        },
+        {
+          "icon": "icons/Ingredients/SPR_Icon_Ingredient_Medicinal_Herb_C.png",
+          "file": "SPR_Icon_Ingredient_Medicinal_Herb_C.png",
+          "reason": "Os ícones de erva se chamam Medicinal Herb A, B e C. Não dá para saber qual é qual."
+        }
+      ]
+    },
+    {
+      "id": "mate-drink",
+      "name": "Mate Drink",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_MateDrink.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_MateDrink.png",
+      "hints": []
+    },
+    {
+      "id": "mate-drink-straw",
+      "name": "Mate Drink Straw",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_MateDrinkStraw.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_MateDrinkStraw.png",
+      "hints": []
+    },
+    {
+      "id": "gourd",
+      "name": "Gourd",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_Gourd.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_Gourd.png",
+      "hints": []
+    },
+    {
+      "id": "yerba-tree-leaf",
+      "name": "Yerba Tree Leaf",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_YerbaTreeLeaf.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_YerbaTreeLeaf.png",
+      "hints": []
+    },
+    {
+      "id": "candle",
+      "name": "Candle",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_Candle.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_Candle.png",
+      "hints": []
+    },
+    {
+      "id": "iron-piece",
+      "name": "Iron Piece",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_IronPiece.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_IronPiece.png",
+      "hints": []
+    },
+    {
+      "id": "dye-bottle-blue",
+      "name": "Dye Bottle Blue",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_ingredient_dye_bottle_blue.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_ingredient_dye_bottle_blue.png",
+      "hints": []
+    },
+    {
+      "id": "grape",
+      "name": "Grape",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_ingredient_Grape.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_ingredient_Grape.png",
+      "hints": []
+    },
+    {
+      "id": "egg",
+      "name": "Egg",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_Egg.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_Egg.png",
+      "hints": []
+    },
+    {
+      "id": "milk",
+      "name": "Milk",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_Milk.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_Milk.png",
+      "hints": []
+    },
+    {
+      "id": "yellow-medicine",
+      "name": "Yellow Medicine",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_YellowMedicine.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_YellowMedicine.png",
+      "hints": []
+    },
+    {
+      "id": "mythical-axe",
+      "name": "Mythical Axe",
+      "category": "ferramenta",
+      "icon": "icons/Tools/SPR_Icon_Tool_Mystic_Axe.png",
+      "iconMatch": "confirmada",
+      "iconFile": "SPR_Icon_Tool_Mystic_Axe.png",
+      "hints": [
+        {
+          "icon": "icons/Tools/SPR_Icon_Tool_Mystic_Axe.png",
+          "file": "SPR_Icon_Tool_Mystic_Axe.png",
+          "reason": "O arquivo se chama Mystic Axe e a receita diz Mythical Axe. Não associado."
+        }
+      ]
+    },
+    {
+      "id": "mystic-fragment",
+      "name": "Mystic Fragment",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_MysticFragment.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_MysticFragment.png",
+      "hints": []
+    },
+    {
+      "id": "strong-log",
+      "name": "Strong Log",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_ingredient_strong_log.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_ingredient_strong_log.png",
+      "hints": []
+    },
+    {
+      "id": "iron-axe",
+      "name": "Iron Axe",
+      "category": "ferramenta",
+      "icon": "icons/Tools/SPR_Icon_Tool_Iron_Axe.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Tool_Iron_Axe.png",
+      "hints": []
+    },
+    {
+      "id": "dye-bottle-green",
+      "name": "Dye Bottle Green",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_ingredient_dye_bottle_green.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_ingredient_dye_bottle_green.png",
+      "hints": []
+    },
+    {
+      "id": "mythical-pickaxe",
+      "name": "Mythical Pickaxe",
+      "category": "ferramenta",
+      "icon": "icons/Tools/SPR_Icon_Tool_Mystic_Pickaxe.png",
+      "iconMatch": "confirmada",
+      "iconFile": "SPR_Icon_Tool_Mystic_Pickaxe.png",
+      "hints": [
+        {
+          "icon": "icons/Tools/SPR_Icon_Tool_Mystic_Pickaxe.png",
+          "file": "SPR_Icon_Tool_Mystic_Pickaxe.png",
+          "reason": "O arquivo se chama Mystic Pickaxe e a receita diz Mythical Pickaxe. Não associado."
+        }
+      ]
+    },
+    {
+      "id": "stone-brick",
+      "name": "Stone Brick",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_StoneBricks.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_StoneBricks.png",
+      "hints": []
+    },
+    {
+      "id": "iron-pickaxe",
+      "name": "Iron Pickaxe",
+      "category": "ferramenta",
+      "icon": "icons/Tools/SPR_Icon_Tool_Iron_Pickaxe.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Tool_Iron_Pickaxe.png",
+      "hints": []
+    },
+    {
+      "id": "raw-meat",
+      "name": "Raw Meat",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_RawMeat.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_RawMeat.png",
+      "hints": []
+    },
+    {
+      "id": "garoupa",
+      "name": "Garoupa",
+      "category": "animal",
+      "icon": "icons/Animals/SPR_Icon_Animals_Garoupa.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Animals_Garoupa.png",
+      "hints": []
+    },
+    {
+      "id": "fiber-rope",
+      "name": "Fiber Rope",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_FiberRope.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_FiberRope.png",
+      "hints": []
+    },
+    {
+      "id": "reeds",
+      "name": "Reeds",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_Reeds.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_Reeds.png",
+      "hints": []
+    },
+    {
+      "id": "cow",
+      "name": "Cow",
+      "category": "animal",
+      "icon": "icons/Animals/SPR_Icon_Animals_Cattle_Infant.png",
+      "iconMatch": "confirmada",
+      "iconFile": "SPR_Icon_Animals_Cattle_Infant.png",
+      "hints": [
+        {
+          "icon": "icons/Animals/SPR_Icon_Animals_Animals_Cattle.png",
+          "file": "SPR_Icon_Animals_Animals_Cattle.png",
+          "reason": "O arquivo se chama Cattle e a receita diz Cow. Não associado."
+        },
+        {
+          "icon": "icons/Animals/SPR_Icon_Animals_Cattle_Infant.png",
+          "file": "SPR_Icon_Animals_Cattle_Infant.png",
+          "reason": "Há também um ícone de Cattle Infant. Não associado."
+        }
+      ]
+    },
+    {
+      "id": "atum",
+      "name": "Atum",
+      "category": "animal",
+      "icon": "icons/Animals/SPR_Icon_Animals_Atum.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Animals_Atum.png",
+      "hints": []
+    },
+    {
+      "id": "banana",
+      "name": "Banana",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_ingredient_Banana.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_ingredient_Banana.png",
+      "hints": []
+    },
+    {
+      "id": "gear",
+      "name": "Gear",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_ingredient_gears.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_ingredient_gears.png",
+      "hints": []
+    },
+    {
+      "id": "scrap-metal",
+      "name": "Scrap Metal",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_ScrapMetal.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_ScrapMetal.png",
+      "hints": []
+    },
+    {
+      "id": "boat-upgrade-2",
+      "name": "Boat Upgrade 2",
+      "category": "missão",
+      "icon": "icons/Missions/SPR_Icon_Boat_LVL2.png",
+      "iconMatch": "confirmada",
+      "iconFile": "SPR_Icon_Boat_LVL2.png",
+      "hints": [
+        {
+          "icon": "icons/Missions/SPR_Icon_Boat_LVL2.png",
+          "file": "SPR_Icon_Boat_LVL2.png",
+          "reason": "O arquivo se chama Boat LVL2 e a receita diz Boat Upgrade 2. Não associado."
+        },
+        {
+          "icon": "icons/Missions/SPR_Icon_Boat_Upgrade.png",
+          "file": "SPR_Icon_Boat_Upgrade.png",
+          "reason": "Há um ícone Boat Upgrade sem número. Não associado."
+        }
+      ]
+    },
+    {
+      "id": "wood-board",
+      "name": "Wood Board",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_WoodBoard.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_WoodBoard.png",
+      "hints": []
+    },
+    {
+      "id": "bergamot",
+      "name": "Bergamot",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_ingredient_bergamot.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_ingredient_bergamot.png",
+      "hints": []
+    },
+    {
+      "id": "dye-bottle-purple",
+      "name": "Dye Bottle Purple",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_ingredient_dye_bottle_purple.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_ingredient_dye_bottle_purple.png",
+      "hints": []
+    },
+    {
+      "id": "amethyst",
+      "name": "Amethyst",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_ingredient_amethyst.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_ingredient_amethyst.png",
+      "hints": []
+    },
+    {
+      "id": "corral-hub",
+      "name": "Corral HUB",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Blueprint.png",
+      "iconMatch": "confirmada",
+      "iconFile": "SPR_Icon_Blueprint.png",
+      "hints": [
+        {
+          "icon": "icons/Missions/SPR_Icon_Placeable_CattleBarn.png",
+          "file": "SPR_Icon_Placeable_CattleBarn.png",
+          "reason": "A receita produz Corral HUB. O ícone Cattle Barn não tem o mesmo nome. Não associado."
+        }
+      ]
+    },
+    {
+      "id": "log",
+      "name": "Log",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_Log.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_Log.png",
+      "hints": []
+    },
+    {
+      "id": "cheese",
+      "name": "Cheese",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_Cheese.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_Cheese.png",
+      "hints": []
+    },
+    {
+      "id": "stone-machete",
+      "name": "Stone Machete",
+      "category": "ferramenta",
+      "icon": "icons/Tools/SPR_Icon_Tool_Stone_Machete.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Tool_Stone_Machete.png",
+      "hints": []
+    },
+    {
+      "id": "sticks",
+      "name": "Sticks",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_WoodSticks.png",
+      "iconMatch": "confirmada",
+      "iconFile": "SPR_Icon_Ingredient_WoodSticks.png",
+      "hints": [
+        {
+          "icon": "icons/Ingredients/SPR_Icon_Ingredient_WoodSticks.png",
+          "file": "SPR_Icon_Ingredient_WoodSticks.png",
+          "reason": "O arquivo se chama WoodSticks e a receita diz Sticks. Não associado."
+        }
+      ]
+    },
+    {
+      "id": "small-stone",
+      "name": "Small Stone",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_SmallStone.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_SmallStone.png",
+      "hints": []
+    },
+    {
+      "id": "green-medicine",
+      "name": "Green Medicine",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_GreenMedicine.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_GreenMedicine.png",
+      "hints": []
+    },
+    {
+      "id": "green-leaves",
+      "name": "Green Leaves",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_GreenLeafs.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_GreenLeafs.png",
+      "hints": []
+    },
+    {
+      "id": "stone-hammer",
+      "name": "Stone Hammer",
+      "category": "ferramenta",
+      "icon": "icons/Tools/SPR_Icon_Tool_Stone_Axe.png",
+      "iconMatch": "confirmada",
+      "iconFile": "SPR_Icon_Tool_Stone_Axe.png",
+      "hints": [
+        {
+          "icon": "icons/Ingredients/SPR_Icon_Ingredient_Hammer_Head.png",
+          "file": "SPR_Icon_Ingredient_Hammer_Head.png",
+          "reason": "O arquivo se chama Hammer Head e a receita diz Stone Hammer. Não associado."
+        }
+      ]
+    },
+    {
+      "id": "grass",
+      "name": "Grass",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_Grass.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_Grass.png",
+      "hints": []
+    },
+    {
+      "id": "nail",
+      "name": "Nail",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_Nails.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_Nails.png",
+      "hints": []
+    },
+    {
+      "id": "boat-upgrade-3",
+      "name": "Boat Upgrade 3",
+      "category": "missão",
+      "icon": "icons/Missions/SPR_Icon_Boat_LVL3.png",
+      "iconMatch": "confirmada",
+      "iconFile": "SPR_Icon_Boat_LVL3.png",
+      "hints": [
+        {
+          "icon": "icons/Missions/SPR_Icon_Boat_LVL3.png",
+          "file": "SPR_Icon_Boat_LVL3.png",
+          "reason": "O arquivo se chama Boat LVL3 e a receita diz Boat Upgrade 3. Não associado."
+        },
+        {
+          "icon": "icons/Missions/SPR_Icon_Boat_Upgrade.png",
+          "file": "SPR_Icon_Boat_Upgrade.png",
+          "reason": "Há um ícone Boat Upgrade sem número. Não associado."
+        }
+      ]
+    },
+    {
+      "id": "boat-upgrade-4",
+      "name": "Boat Upgrade 4",
+      "category": "missão",
+      "icon": "icons/Missions/SPR_Icon_Boat_LVL4.png",
+      "iconMatch": "confirmada",
+      "iconFile": "SPR_Icon_Boat_LVL4.png",
+      "hints": [
+        {
+          "icon": "icons/Missions/SPR_Icon_Boat_LVL4.png",
+          "file": "SPR_Icon_Boat_LVL4.png",
+          "reason": "O arquivo se chama Boat LVL4 e a receita diz Boat Upgrade 4. Não associado."
+        },
+        {
+          "icon": "icons/Missions/SPR_Icon_Boat_Upgrade.png",
+          "file": "SPR_Icon_Boat_Upgrade.png",
+          "reason": "Há um ícone Boat Upgrade sem número. Não associado."
+        }
+      ]
+    },
+    {
+      "id": "mystic-bamboo",
+      "name": "Mystic Bamboo",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_MysticBamboo.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_MysticBamboo.png",
+      "hints": []
+    },
+    {
+      "id": "mystic-log",
+      "name": "Mystic Log",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_MysticLog.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_MysticLog.png",
+      "hints": []
+    },
+    {
+      "id": "clay-jar",
+      "name": "Clay Jar",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_Clay_Jar.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_Clay_Jar.png",
+      "hints": []
+    },
+    {
+      "id": "clay",
+      "name": "Clay",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_Clay.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_Clay.png",
+      "hints": []
+    },
+    {
+      "id": "pinion",
+      "name": "Pinion",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_ingredient_pinion.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_ingredient_pinion.png",
+      "hints": []
+    },
+    {
+      "id": "butia",
+      "name": "Butia",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_ingredient_butia.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_ingredient_butia.png",
+      "hints": []
+    },
+    {
+      "id": "grass-string",
+      "name": "Grass String",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_GrassString.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_GrassString.png",
+      "hints": []
+    },
+    {
+      "id": "barracuda",
+      "name": "Barracuda",
+      "category": "animal",
+      "icon": "icons/Animals/SPR_Icon_Animals_Barracuda.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Animals_Barracuda.png",
+      "hints": []
+    },
+    {
+      "id": "sheep",
+      "name": "Sheep",
+      "category": "animal",
+      "icon": "icons/Animals/SPR_Icon_Animals_Sheep_Female.png",
+      "iconMatch": "confirmada",
+      "iconFile": "SPR_Icon_Animals_Sheep_Female.png",
+      "hints": [
+        {
+          "icon": "icons/Animals/SPR_Icon_Animals_Sheep_Female.png",
+          "file": "SPR_Icon_Animals_Sheep_Female.png",
+          "reason": "Há ícones separados de ovelha. Nenhum se chama apenas Sheep."
+        },
+        {
+          "icon": "icons/Animals/SPR_Icon_Animals_Sheep_Male.png",
+          "file": "SPR_Icon_Animals_Sheep_Male.png",
+          "reason": "Há ícones separados de ovelha. Nenhum se chama apenas Sheep."
+        },
+        {
+          "icon": "icons/Animals/SPR_Icon_Animals_Sheep_Infant.png",
+          "file": "SPR_Icon_Animals_Sheep_Infant.png",
+          "reason": "Há ícones separados de ovelha. Nenhum se chama apenas Sheep."
+        }
+      ]
+    },
+    {
+      "id": "anchova",
+      "name": "Anchova",
+      "category": "animal",
+      "icon": "icons/Animals/SPR_Icon_Animals_Anchova.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Animals_Anchova.png",
+      "hints": []
+    },
+    {
+      "id": "chicken",
+      "name": "Chicken",
+      "category": "animal",
+      "icon": "icons/Animals/SPR_Icon_Animals_Chicken_Female.png",
+      "iconMatch": "confirmada",
+      "iconFile": "SPR_Icon_Animals_Chicken_Female.png",
+      "hints": [
+        {
+          "icon": "icons/Animals/SPR_Icon_Animals_Chicken_Female.png",
+          "file": "SPR_Icon_Animals_Chicken_Female.png",
+          "reason": "Há ícones separados de galinha. Nenhum se chama apenas Chicken."
+        },
+        {
+          "icon": "icons/Animals/SPR_Icon_Animals_Chicken_Male.png",
+          "file": "SPR_Icon_Animals_Chicken_Male.png",
+          "reason": "Há ícones separados de galinha. Nenhum se chama apenas Chicken."
+        },
+        {
+          "icon": "icons/Animals/SPR_Icon_Animals_Chicken_Infant.png",
+          "file": "SPR_Icon_Animals_Chicken_Infant.png",
+          "reason": "Há ícones separados de galinha. Nenhum se chama apenas Chicken."
+        }
+      ]
+    },
+    {
+      "id": "red-medicine",
+      "name": "Red Medicine",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_RedMedicine.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_RedMedicine.png",
+      "hints": []
+    },
+    {
+      "id": "stone",
+      "name": "Stone",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_BigStone.png",
+      "iconMatch": "confirmada",
+      "iconFile": "SPR_Icon_Ingredient_BigStone.png",
+      "hints": []
+    },
+    {
+      "id": "vegetable-wax",
+      "name": "Vegetable Wax",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_Vegetable_Wax.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_Vegetable_Wax.png",
+      "hints": []
+    },
+    {
+      "id": "clay-tile",
+      "name": "Clay Tile",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_ClayTile.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_ClayTile.png",
+      "hints": []
+    },
+    {
+      "id": "salami",
+      "name": "Salami",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_Ingredient_Salami.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Ingredient_Salami.png",
+      "hints": []
+    },
+    {
+      "id": "mythical-machete",
+      "name": "Mythical Machete",
+      "category": "ferramenta",
+      "icon": "icons/Tools/SPR_Icon_Tool_Mystic_Machete.png",
+      "iconMatch": "confirmada",
+      "iconFile": "SPR_Icon_Tool_Mystic_Machete.png",
+      "hints": [
+        {
+          "icon": "icons/Tools/SPR_Icon_Tool_Mystic_Machete.png",
+          "file": "SPR_Icon_Tool_Mystic_Machete.png",
+          "reason": "O arquivo se chama Mystic Machete e a receita diz Mythical Machete. Não associado."
+        }
+      ]
+    },
+    {
+      "id": "iron-machete",
+      "name": "Iron Machete",
+      "category": "ferramenta",
+      "icon": "icons/Tools/SPR_Icon_Tool_Iron_Machete.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_Tool_Iron_Machete.png",
+      "hints": []
+    },
+    {
+      "id": "iron-ore",
+      "name": "Iron Ore",
+      "category": "ingrediente",
+      "icon": "icons/Ingredients/SPR_Icon_ingredient_iron_ore.png",
+      "iconMatch": "segura",
+      "iconFile": "SPR_Icon_ingredient_iron_ore.png",
+      "hints": []
+    }
+  ],
+  "recipes": [
+    {
+      "id": "so-ball-of-wool-for-wool-recipe",
+      "name": "Ball of Wool for Wool",
+      "sourceFile": "SO_Ball_of_Wool_for_Wool_Recipe.asset",
+      "outputId": "ball-of-wool",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "wool",
+          "qty": 2,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-rose-and-rose-tissue-for-rose-bouquet-recipe",
+      "name": "Rose and Rose Tissue for Rose Bouquet",
+      "sourceFile": "SO_Rose_and_Rose_Tissue_for_Rose_Bouquet_Recipe.asset",
+      "outputId": "rose-bouquet",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "rose",
+          "qty": 3,
+          "consumed": true
+        },
+        {
+          "itemId": "rose-tissue",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-rose-for-dye-bottle-red-recipe",
+      "name": "Rose for Dye Bottle Red",
+      "sourceFile": "SO_Rose_for_Dye_Bottle_Red_Recipe.asset",
+      "outputId": "dye-bottle-red",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "rose",
+          "qty": 4,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-coin-for-cuca-recipe",
+      "name": "Coin for Cuca",
+      "sourceFile": "SO_Coin_for_Cuca_Recipe.asset",
+      "outputId": "coin",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "cuca",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-cassava-for-coin-recipe",
+      "name": "Cassava for Coin",
+      "sourceFile": "SO_Cassava_for_Coin_Recipe.asset",
+      "outputId": "cassava",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "coin",
+          "qty": 3,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-coin-for-fiber-fabric-recipe",
+      "name": "Coin for Fiber Fabric",
+      "sourceFile": "SO_Coin_for_Fiber_Fabric_Recipe.asset",
+      "outputId": "coin",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "fiber-fabric",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-red-medicinal-leaves-for-echinacea-recipe",
+      "name": "Red Medicinal Leaves for Echinacea",
+      "sourceFile": "SO_Red_Medicinal_Leaves_for_Echinacea_Recipe.asset",
+      "outputId": "red-leaves",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "medicinal-herb-red-echinacea",
+          "qty": 2,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-orange-wool-for-wool-and-dye-bottle-yellow-recipe",
+      "name": "Orange Wool for Wool and Dye Bottle Yellow",
+      "sourceFile": "SO_Orange_Wool_for_Wool_and_Dye_Bottle_Yellow_Recipe.asset",
+      "outputId": "orange-wool",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "wool",
+          "qty": 1,
+          "consumed": true
+        },
+        {
+          "itemId": "dye-bottle-yellow",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-wheat-for-flour-recipe",
+      "name": "Wheat for Flour",
+      "sourceFile": "SO_Wheat_for_Flour_Recipe.asset",
+      "outputId": "flour",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "wheat",
+          "qty": 2,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-dye-bottle-yellow-recipe",
+      "name": "Dye Bottle Yellow",
+      "sourceFile": "SO_Dye_Bottle_Yellow_Recipe.asset",
+      "outputId": "dye-bottle-yellow",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "medicinal-herb-white-chamomile",
+          "qty": 3,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-coin-for-leather-recipe",
+      "name": "Coin for Leather",
+      "sourceFile": "SO_Coin_for_Leather_Recipe.asset",
+      "outputId": "coin",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "leather",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-leather-for-raw-hide-recipe",
+      "name": "Leather for Raw Hide",
+      "sourceFile": "SO_Leather_for_Raw_Hide_Recipe.asset",
+      "outputId": "leather",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "raw-hide",
+          "qty": 2,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-grain-salt-for-coin-recipe",
+      "name": "Grain Salt for Coin",
+      "sourceFile": "SO_Grain_Salt_for_Coin_Recipe.asset",
+      "outputId": "grain-salt",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "coin",
+          "qty": 2,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-ball-of-wool-orange-for-orange-wool-recipe",
+      "name": "Ball of Wool Orange for Orange Wool",
+      "sourceFile": "SO_Ball_of_Wool_Orange_for_Orange_Wool_Recipe.asset",
+      "outputId": "ball-of-wool-orange",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "orange-wool",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-yellow-medicinal-leaves-for-calendula-recipe",
+      "name": "Yellow Medicinal Leaves for Calendula",
+      "sourceFile": "SO_Yellow_Medicinal_Leaves_for_Calendula_Recipe.asset",
+      "outputId": "yellow-leaves",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "medicinal-herb-orange-calendula",
+          "qty": 2,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-mate-drink-for-mate-drink-straw-and-gourd-recipe",
+      "name": "Mate Drink for Mate Drink Straw and Gourd",
+      "sourceFile": "SO_Mate_Drink_for_Mate_Drink_Straw_and_Gourd_Recipe.asset",
+      "outputId": "mate-drink",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "mate-drink-straw",
+          "qty": 1,
+          "consumed": true
+        },
+        {
+          "itemId": "gourd",
+          "qty": 1,
+          "consumed": true
+        },
+        {
+          "itemId": "yerba-tree-leaf",
+          "qty": 3,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-coin-for-candle-recipe",
+      "name": "Coin for Candle",
+      "sourceFile": "SO_Coin_for_Candle_Recipe.asset",
+      "outputId": "coin",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "candle",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-coin-for-red-medicinal-leaves-recipe",
+      "name": "Coin for Red Medicinal Leaves",
+      "sourceFile": "SO_Coin_for_Red_Medicinal_Leaves_Recipe.asset",
+      "outputId": "coin",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "red-leaves",
+          "qty": 4,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-mate-drink-straw-for-iron-piece-recipe",
+      "name": "Mate Drink Straw for Iron Piece",
+      "sourceFile": "SO_Mate_Drink_Straw_for_Iron_Piece_Recipe.asset",
+      "outputId": "mate-drink-straw",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "iron-piece",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-dye-bottle-blue-for-grape-recipe",
+      "name": "Dye Bottle Blue for Grape",
+      "sourceFile": "SO_Dye_Bottle_Blue_for_Grape_Recipe.asset",
+      "outputId": "dye-bottle-blue",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "grape",
+          "qty": 2,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-egg-milk-and-wheat-for-cuca-recipe",
+      "name": "Egg, Milk and Wheat for Cuca",
+      "sourceFile": "SO_Egg__Milk_and_Wheat_for_Cuca_Recipe.asset",
+      "outputId": "cuca",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "egg",
+          "qty": 2,
+          "consumed": true
+        },
+        {
+          "itemId": "milk",
+          "qty": 2,
+          "consumed": true
+        },
+        {
+          "itemId": "wheat",
+          "qty": 2,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-coin-for-wool-recipe",
+      "name": "Coin for Wool",
+      "sourceFile": "SO_Coin_for_Wool_Recipe.asset",
+      "outputId": "coin",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "wool",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-yellow-medicine-for-yellow-medicinal-leaves-recipe",
+      "name": "Yellow Medicine for Yellow Medicinal Leaves",
+      "sourceFile": "SO_Yellow_Medicine_for_Yellow_Medicinal_Leaves_Recipe.asset",
+      "outputId": "yellow-medicine",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "yellow-leaves",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-mythical-axe-for-mystic-fragment-and-strong-log-recipe",
+      "name": "Mythical Axe for Mystic Fragment and Strong Log",
+      "sourceFile": "SO_Mythical_Axe_for_Mystic_Fragment_and_Strong_Log_Recipe.asset",
+      "outputId": "mythical-axe",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "mystic-fragment",
+          "qty": 10,
+          "consumed": true
+        },
+        {
+          "itemId": "strong-log",
+          "qty": 10,
+          "consumed": true
+        },
+        {
+          "itemId": "iron-axe",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-coin-for-dye-bottle-green-recipe",
+      "name": "Coin for Dye Bottle Green",
+      "sourceFile": "SO_Coin_for_Dye_Bottle_Green_Recipe.asset",
+      "outputId": "coin",
+      "outputQty": 3,
+      "ingredients": [
+        {
+          "itemId": "dye-bottle-green",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-mythical-pickaxe-for-mystic-fragment-and-stone-brick-recipe",
+      "name": "Mythical Pickaxe for Mystic Fragment and Stone Brick",
+      "sourceFile": "SO_Mythical_Pickaxe_for_Mystic_Fragment_and_Stone_Brick_Recipe.asset",
+      "outputId": "mythical-pickaxe",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "mystic-fragment",
+          "qty": 10,
+          "consumed": true
+        },
+        {
+          "itemId": "stone-brick",
+          "qty": 10,
+          "consumed": true
+        },
+        {
+          "itemId": "iron-pickaxe",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-raw-meat-for-coin-recipe",
+      "name": "Raw Meat for Coin",
+      "sourceFile": "SO_Raw_Meat_for_Coin_Recipe.asset",
+      "outputId": "raw-meat",
+      "outputQty": 5,
+      "ingredients": [
+        {
+          "itemId": "coin",
+          "qty": 4,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-coin-for-milk-recipe",
+      "name": "Coin for Milk",
+      "sourceFile": "SO_Coin_for_Milk_Recipe.asset",
+      "outputId": "coin",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "milk",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-coin-for-garoupa-recipe",
+      "name": "Coin for Garoupa",
+      "sourceFile": "SO_Coin_for_Garoupa_Recipe.asset",
+      "outputId": "coin",
+      "outputQty": 3,
+      "ingredients": [
+        {
+          "itemId": "garoupa",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-fiber-rope-for-reeds-recipe",
+      "name": "Fiber Rope for Reeds",
+      "sourceFile": "SO_Fiber_Rope_for_Reeds_Recipe.asset",
+      "outputId": "fiber-rope",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "reeds",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-cow-for-coin-recipe",
+      "name": "Cow for Coin",
+      "sourceFile": "SO_Cow_for_Coin_Recipe.asset",
+      "outputId": "cow",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "coin",
+          "qty": 30,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-coin-for-atum-recipe",
+      "name": "Coin for Atum",
+      "sourceFile": "SO_Coin_for_Atum_Recipe.asset",
+      "outputId": "coin",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "atum",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-fiber-fabric-for-fiber-rope-and-ball-of-wool-recipe",
+      "name": "Fiber Fabric for Fiber Rope and Ball of Wool",
+      "sourceFile": "SO_Fiber_Fabric_for_Fiber_Rope_and_Ball_of_Wool_Recipe.asset",
+      "outputId": "fiber-fabric",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "fiber-rope",
+          "qty": 1,
+          "consumed": true
+        },
+        {
+          "itemId": "ball-of-wool",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-banana-for-coin-recipe",
+      "name": "Banana for Coin",
+      "sourceFile": "SO_Banana_for_Coin_Recipe.asset",
+      "outputId": "banana",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "coin",
+          "qty": 3,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-gears-for-scrap-metal-recipe",
+      "name": "Gears for Scrap Metal",
+      "sourceFile": "SO_Gears_for_Scrap_Metal_Recipe.asset",
+      "outputId": "gear",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "scrap-metal",
+          "qty": 10,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-boat-upgrade-2-recipe",
+      "name": "Boat Upgrade 2",
+      "sourceFile": "SO_Boat_Upgrade_2_Recipe.asset",
+      "outputId": "boat-upgrade-2",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "wood-board",
+          "qty": 10,
+          "consumed": true
+        },
+        {
+          "itemId": "gear",
+          "qty": 8,
+          "consumed": true
+        },
+        {
+          "itemId": "leather",
+          "qty": 6,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-bergamot-for-coin-recipe",
+      "name": "Bergamot for Coin",
+      "sourceFile": "SO_Bergamot_for_Coin_Recipe.asset",
+      "outputId": "bergamot",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "coin",
+          "qty": 3,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-dye-bottle-green-recipe",
+      "name": "Dye Bottle Green",
+      "sourceFile": "SO_Dye_Bottle_Green_Recipe.asset",
+      "outputId": "dye-bottle-green",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "yerba-tree-leaf",
+          "qty": 3,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-amethyst-for-dye-bottle-purple-recipe",
+      "name": "Amethyst for Dye Bottle Purple",
+      "sourceFile": "SO_Amethyst_for_Dye_Bottle_Purple_Recipe.asset",
+      "outputId": "dye-bottle-purple",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "amethyst",
+          "qty": 4,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-corral-blueprint-for-coin-recipe",
+      "name": "Corral Blueprint for Coin",
+      "sourceFile": "SO_Corral_Blueprint_for_Coin_Recipe.asset",
+      "outputId": "corral-hub",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "coin",
+          "qty": 50,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-wood-board-for-log-recipe",
+      "name": "Wood Board for Log",
+      "sourceFile": "SO_Wood_Board_for_Log_Recipe.asset",
+      "outputId": "wood-board",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "log",
+          "qty": 2,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-milk-for-cheese-recipe",
+      "name": "Milk for Cheese",
+      "sourceFile": "SO_Milk_for_Cheese_Recipe.asset",
+      "outputId": "cheese",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "milk",
+          "qty": 2,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-stone-machete-recipe",
+      "name": "Stone Machete",
+      "sourceFile": "SO_Stone_Machete_Recipe.asset",
+      "outputId": "stone-machete",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "sticks",
+          "qty": 4,
+          "consumed": true
+        },
+        {
+          "itemId": "small-stone",
+          "qty": 4,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-coin-for-egg-recipe",
+      "name": "Coin for Egg",
+      "sourceFile": "SO_Coin_for_Egg_Recipe.asset",
+      "outputId": "coin",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "egg",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-green-medicine-for-green-medicinal-leaves-recipe",
+      "name": "Green Medicine for Green Medicinal Leaves",
+      "sourceFile": "SO_Green_Medicine_for_Green_Medicinal_Leaves_Recipe.asset",
+      "outputId": "green-medicine",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "green-leaves",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-stone-hammer-recipe",
+      "name": "Stone Hammer",
+      "sourceFile": "SO_Stone_Hammer_Recipe.asset",
+      "outputId": "stone-hammer",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "sticks",
+          "qty": 7,
+          "consumed": true
+        },
+        {
+          "itemId": "grass",
+          "qty": 10,
+          "consumed": true
+        },
+        {
+          "itemId": "small-stone",
+          "qty": 6,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-nails-for-iron-piece-recipe",
+      "name": "Nails for Iron Piece",
+      "sourceFile": "SO_Nails_for_Iron_Piece_Recipe.asset",
+      "outputId": "nail",
+      "outputQty": 10,
+      "ingredients": [
+        {
+          "itemId": "iron-piece",
+          "qty": 3,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-boat-upgrade-3-recipe",
+      "name": "Boat Upgrade 3",
+      "sourceFile": "SO_Boat_Upgrade_3_Recipe.asset",
+      "outputId": "boat-upgrade-3",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "strong-log",
+          "qty": 20,
+          "consumed": true
+        },
+        {
+          "itemId": "nail",
+          "qty": 10,
+          "consumed": true
+        },
+        {
+          "itemId": "leather",
+          "qty": 8,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-boat-upgrade-4-recipe",
+      "name": "Boat Upgrade 4",
+      "sourceFile": "SO_Boat_Upgrade_4_Recipe.asset",
+      "outputId": "boat-upgrade-4",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "mystic-bamboo",
+          "qty": 8,
+          "consumed": true
+        },
+        {
+          "itemId": "mystic-log",
+          "qty": 10,
+          "consumed": true
+        },
+        {
+          "itemId": "mystic-fragment",
+          "qty": 12,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-coin-for-dye-bottle-yellow-recipe",
+      "name": "Coin for Dye Bottle Yellow",
+      "sourceFile": "SO_Coin_for_Dye_Bottle_Yellow_Recipe.asset",
+      "outputId": "coin",
+      "outputQty": 6,
+      "ingredients": [
+        {
+          "itemId": "dye-bottle-yellow",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-clay-jar-recipe",
+      "name": "Clay Jar",
+      "sourceFile": "SO_Clay_Jar_Recipe.asset",
+      "outputId": "clay-jar",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "clay",
+          "qty": 3,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-pinion-for-coin-recipe",
+      "name": "Pinion for Coin",
+      "sourceFile": "SO_Pinion_for_Coin_Recipe.asset",
+      "outputId": "pinion",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "coin",
+          "qty": 3,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-butia-for-coin-recipe",
+      "name": "Butia for Coin",
+      "sourceFile": "SO_Butia_for_Coin_Recipe.asset",
+      "outputId": "butia",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "coin",
+          "qty": 3,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-coin-for-rose-bouquet-recipe",
+      "name": "Coin for Rose Bouquet",
+      "sourceFile": "SO_Coin_for_Rose_Bouquet_Recipe.asset",
+      "outputId": "coin",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "rose-bouquet",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-raw-hide-for-gold-coin-recipe",
+      "name": "Raw Hide for Gold Coin",
+      "sourceFile": "SO_Raw_Hide_for_Gold_Coin_Recipe.asset",
+      "outputId": "raw-hide",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "coin",
+          "qty": 4,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-grape-for-coin-recipe",
+      "name": "Grape for Coin",
+      "sourceFile": "SO_Grape_for_Coin_Recipe.asset",
+      "outputId": "grape",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "coin",
+          "qty": 3,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-grass-string-recipe",
+      "name": "Grass String",
+      "sourceFile": "SO_Grass_String_Recipe.asset",
+      "outputId": "grass-string",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "grass",
+          "qty": 3,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-coin-for-barracuda-recipe",
+      "name": "Coin for Barracuda",
+      "sourceFile": "SO_Coin_for_Barracuda_Recipe.asset",
+      "outputId": "coin",
+      "outputQty": 3,
+      "ingredients": [
+        {
+          "itemId": "barracuda",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-sheep-for-coin-recipe",
+      "name": "Sheep for Coin",
+      "sourceFile": "SO_Sheep_for_Coin_Recipe.asset",
+      "outputId": "sheep",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "coin",
+          "qty": 20,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-gourd-for-wood-board-and-fiber-rope-recipe",
+      "name": "Gourd for Wood Board and Fiber Rope",
+      "sourceFile": "SO_Gourd_for_Wood_Board_and_Fiber_Rope_Recipe.asset",
+      "outputId": "gourd",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "wood-board",
+          "qty": 1,
+          "consumed": true
+        },
+        {
+          "itemId": "fiber-rope",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-rose-tissue-for-fiber-fabric-recipe",
+      "name": "Rose Tissue for Fiber Fabric",
+      "sourceFile": "SO_Rose_Tissue_for_Fiber_Fabric_Recipe.asset",
+      "outputId": "rose-tissue",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "fiber-fabric",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-coin-for-anchova-recipe",
+      "name": "Coin for Anchova",
+      "sourceFile": "SO_Coin_for_Anchova_Recipe.asset",
+      "outputId": "coin",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "anchova",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-nails-for-scrap-metal-recipe",
+      "name": "Nails for Scrap Metal",
+      "sourceFile": "SO_Nails_for_Scrap_Metal_Recipe.asset",
+      "outputId": "nail",
+      "outputQty": 2,
+      "ingredients": [
+        {
+          "itemId": "scrap-metal",
+          "qty": 10,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-green-medicinal-leaves-for-grass-recipe",
+      "name": "Green Medicinal Leaves for Grass",
+      "sourceFile": "SO_Green_Medicinal_Leaves_for_Grass_Recipe.asset",
+      "outputId": "green-leaves",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "grass",
+          "qty": 2,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-chicken-for-coin-recipe",
+      "name": "Chicken for Coin",
+      "sourceFile": "SO_Chicken_for_Coin_Recipe.asset",
+      "outputId": "chicken",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "coin",
+          "qty": 12,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-red-medicine-for-red-medicinal-leaves-recipe",
+      "name": "Red Medicine for Red Medicinal Leaves",
+      "sourceFile": "SO_Red_Medicine_for_Red_Medicinal_Leaves_Recipe.asset",
+      "outputId": "red-medicine",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "red-leaves",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-stone-bricks-for-stone-recipe",
+      "name": "Stone Bricks for Stone",
+      "sourceFile": "SO_Stone_Bricks_for_Stone_Recipe.asset",
+      "outputId": "stone-brick",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "stone",
+          "qty": 3,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-vegetable-wax-recipe",
+      "name": "Vegetable Wax",
+      "sourceFile": "SO_Vegetable_Wax_Recipe.asset",
+      "outputId": "vegetable-wax",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "medicinal-herb-red-echinacea",
+          "qty": 2,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-clay-tile-for-dye-bottle-red-and-clay-recipe",
+      "name": "Clay Tile for Dye Bottle Red and Clay",
+      "sourceFile": "SO_Clay_Tile_for_Dye_Bottle_Red_and_Clay_Recipe.asset",
+      "outputId": "clay-tile",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "dye-bottle-red",
+          "qty": 1,
+          "consumed": true
+        },
+        {
+          "itemId": "clay",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-raw-meat-and-salt-for-salami-recipe",
+      "name": "Raw Meat and Salt for Salami",
+      "sourceFile": "SO_Raw_Meat_and_Salt_for_Salami_Recipe.asset",
+      "outputId": "salami",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "raw-meat",
+          "qty": 1,
+          "consumed": true
+        },
+        {
+          "itemId": "grain-salt",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-candle-recipe",
+      "name": "Candle",
+      "sourceFile": "SO_Candle_Recipe.asset",
+      "outputId": "candle",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "vegetable-wax",
+          "qty": 1,
+          "consumed": true
+        },
+        {
+          "itemId": "grass-string",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-mythical-machete-for-mystic-fragment-and-iron-piece-recipe",
+      "name": "Mythical Machete for Mystic Fragment and Iron Piece",
+      "sourceFile": "SO_Mythical_Machete_for_Mystic_Fragment_and_Iron_Piece_Recipe.asset",
+      "outputId": "mythical-machete",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "mystic-fragment",
+          "qty": 10,
+          "consumed": true
+        },
+        {
+          "itemId": "iron-piece",
+          "qty": 10,
+          "consumed": true
+        },
+        {
+          "itemId": "iron-machete",
+          "qty": 1,
+          "consumed": true
+        }
+      ]
+    },
+    {
+      "id": "so-iron-piece-for-iron-ore-recipe",
+      "name": "Iron Piece for Iron Ore",
+      "sourceFile": "SO_Iron_Piece_for_Iron_Ore_Recipe.asset",
+      "outputId": "iron-piece",
+      "outputQty": 1,
+      "ingredients": [
+        {
+          "itemId": "iron-ore",
+          "qty": 5,
+          "consumed": true
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "ajudante-ovelheiro",
+      "name": "Ajudante Ovelheiro",
+      "fileName": "SPR_Icon_Character_AjudanteOvelheiro",
+      "icon": "icons/Characters/SPR_Icon_Character_AjudanteOvelheiro.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "artesa",
+      "name": "Artesa",
+      "fileName": "SPR_Icon_Character_Artesa",
+      "icon": "icons/Characters/SPR_Icon_Character_Artesa.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "artista",
+      "name": "Artista",
+      "fileName": "SPR_Icon_Character_Artista",
+      "icon": "icons/Characters/SPR_Icon_Character_Artista.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "barqueira",
+      "name": "Barqueira",
+      "fileName": "SPR_Icon_Character_Barqueira",
+      "icon": "icons/Characters/SPR_Icon_Character_Barqueira.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "benzedeira",
+      "name": "Benzedeira",
+      "fileName": "SPR_Icon_Character_Benzedeira",
+      "icon": "icons/Characters/SPR_Icon_Character_Benzedeira.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "botanista",
+      "name": "Botanista",
+      "fileName": "SPR_Icon_Character_Botanista",
+      "icon": "icons/Characters/SPR_Icon_Character_Botanista.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "caipora",
+      "name": "Caipora",
+      "fileName": "SPR_Icon_Character_Caipora",
+      "icon": "icons/Characters/SPR_Icon_Character_Caipora.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "carpinteira",
+      "name": "Carpinteira",
+      "fileName": "SPR_Icon_Character_Carpinteira",
+      "icon": "icons/Characters/SPR_Icon_Character_Carpinteira.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "estudante-de-ervas",
+      "name": "Estudante De Ervas",
+      "fileName": "SPR_Icon_Character_EstudanteDeErvas",
+      "icon": "icons/Characters/SPR_Icon_Character_EstudanteDeErvas.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "ferreiro",
+      "name": "Ferreiro",
+      "fileName": "SPR_Icon_Character_Ferreiro",
+      "icon": "icons/Characters/SPR_Icon_Character_Ferreiro.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "gaucho",
+      "name": "Gaucho",
+      "fileName": "SPR_Icon_Character_Gaucho",
+      "icon": "icons/Characters/SPR_Icon_Character_Gaucho.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "gaucho-boat",
+      "name": "Gaucho Boat",
+      "fileName": "SPR_Icon_Character_GauchoBoat",
+      "icon": "icons/Characters/SPR_Icon_Character_GauchoBoat.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "gaucho-cusco",
+      "name": "Gaucho Cusco",
+      "fileName": "SPR_Icon_Character_GauchoCusco",
+      "icon": "icons/Characters/SPR_Icon_Character_GauchoCusco.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "granjeiro",
+      "name": "Granjeiro",
+      "fileName": "SPR_Icon_Character_Granjeiro",
+      "icon": "icons/Characters/SPR_Icon_Character_Granjeiro.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "madereiro",
+      "name": "Madereiro",
+      "fileName": "SPR_Icon_Character_Madereiro",
+      "icon": "icons/Characters/SPR_Icon_Character_Madereiro.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "marceneira",
+      "name": "Marceneira",
+      "fileName": "SPR_Icon_Character_Marceneira",
+      "icon": "icons/Characters/SPR_Icon_Character_Marceneira.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "marisqueira",
+      "name": "Marisqueira",
+      "fileName": "SPR_Icon_Character_Marisqueira",
+      "icon": "icons/Characters/SPR_Icon_Character_Marisqueira.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "mercador",
+      "name": "Mercador",
+      "fileName": "SPR_Icon_Character_Mercador",
+      "icon": "icons/Characters/SPR_Icon_Character_Mercador.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "minerador",
+      "name": "Minerador",
+      "fileName": "SPR_Icon_Character_Minerador",
+      "icon": "icons/Characters/SPR_Icon_Character_Minerador.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "ovelheiro",
+      "name": "Ovelheiro",
+      "fileName": "SPR_Icon_Character_Ovelheiro",
+      "icon": "icons/Characters/SPR_Icon_Character_Ovelheiro.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "pescador",
+      "name": "Pescador",
+      "fileName": "SPR_Icon_Character_Pescador",
+      "icon": "icons/Characters/SPR_Icon_Character_Pescador.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "prenda",
+      "name": "Prenda",
+      "fileName": "SPR_Icon_Character_Prenda",
+      "icon": "icons/Characters/SPR_Icon_Character_Prenda.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "remador",
+      "name": "Remador",
+      "fileName": "SPR_Icon_Character_Remador",
+      "icon": "icons/Characters/SPR_Icon_Character_Remador.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "ribeirinha",
+      "name": "Ribeirinha",
+      "fileName": "SPR_Icon_Character_Ribeirinha",
+      "icon": "icons/Characters/SPR_Icon_Character_Ribeirinha.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "saci",
+      "name": "Saci",
+      "fileName": "SPR_Icon_Character_Saci",
+      "icon": "icons/Characters/SPR_Icon_Character_Saci.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "saci-corrupted",
+      "name": "Saci Corrupted",
+      "fileName": "SPR_Icon_Character_SaciCorrupted",
+      "icon": "icons/Characters/SPR_Icon_Character_SaciCorrupted.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "trovador",
+      "name": "Trovador",
+      "fileName": "SPR_Icon_Character_Trovador",
+      "icon": "icons/Characters/SPR_Icon_Character_Trovador.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "vaqueiro",
+      "name": "Vaqueiro",
+      "fileName": "SPR_Icon_Character_Vaqueiro",
+      "icon": "icons/Characters/SPR_Icon_Character_Vaqueiro.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "viajante-campos",
+      "name": "Viajante Campos",
+      "fileName": "SPR_Icon_Character_ViajanteCampos",
+      "icon": "icons/Characters/SPR_Icon_Character_ViajanteCampos.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "viajante-lagoa",
+      "name": "Viajante Lagoa",
+      "fileName": "SPR_Icon_Character_ViajanteLagoa",
+      "icon": "icons/Characters/SPR_Icon_Character_ViajanteLagoa.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "viajante-mata",
+      "name": "Viajante Mata",
+      "fileName": "SPR_Icon_Character_ViajanteMata",
+      "icon": "icons/Characters/SPR_Icon_Character_ViajanteMata.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "viajantes",
+      "name": "Viajantes",
+      "fileName": "SPR_Icon_Character_Viajantes",
+      "icon": "icons/Characters/SPR_Icon_Character_Viajantes.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "violinista",
+      "name": "Violinista",
+      "fileName": "SPR_Icon_Character_Violinista",
+      "icon": "icons/Characters/SPR_Icon_Character_Violinista.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    },
+    {
+      "id": "vizinha",
+      "name": "Vizinha",
+      "fileName": "SPR_Icon_Character_Vizinha",
+      "icon": "icons/Characters/SPR_Icon_Character_Vizinha.png",
+      "nameOrigin": "Nome lido do arquivo do ícone, com espaços onde havia camelCase."
+    }
+  ],
+  "icons": [
+    {
+      "path": "icons/Animals/SPR_Icon_Animal_Dog.png",
+      "folder": "Animals",
+      "file": "SPR_Icon_Animal_Dog.png",
+      "label": "Dog"
+    },
+    {
+      "path": "icons/Animals/SPR_Icon_Animals_Anchova.png",
+      "folder": "Animals",
+      "file": "SPR_Icon_Animals_Anchova.png",
+      "label": "Anchova"
+    },
+    {
+      "path": "icons/Animals/SPR_Icon_Animals_Animals_Cattle.png",
+      "folder": "Animals",
+      "file": "SPR_Icon_Animals_Animals_Cattle.png",
+      "label": "Animals Cattle"
+    },
+    {
+      "path": "icons/Animals/SPR_Icon_Animals_Atum.png",
+      "folder": "Animals",
+      "file": "SPR_Icon_Animals_Atum.png",
+      "label": "Atum"
+    },
+    {
+      "path": "icons/Animals/SPR_Icon_Animals_Barracuda.png",
+      "folder": "Animals",
+      "file": "SPR_Icon_Animals_Barracuda.png",
+      "label": "Barracuda"
+    },
+    {
+      "path": "icons/Animals/SPR_Icon_Animals_Cattle_Infant.png",
+      "folder": "Animals",
+      "file": "SPR_Icon_Animals_Cattle_Infant.png",
+      "label": "Cattle Infant"
+    },
+    {
+      "path": "icons/Animals/SPR_Icon_Animals_Chicken_Female.png",
+      "folder": "Animals",
+      "file": "SPR_Icon_Animals_Chicken_Female.png",
+      "label": "Chicken Female"
+    },
+    {
+      "path": "icons/Animals/SPR_Icon_Animals_Chicken_Infant.png",
+      "folder": "Animals",
+      "file": "SPR_Icon_Animals_Chicken_Infant.png",
+      "label": "Chicken Infant"
+    },
+    {
+      "path": "icons/Animals/SPR_Icon_Animals_Chicken_Male.png",
+      "folder": "Animals",
+      "file": "SPR_Icon_Animals_Chicken_Male.png",
+      "label": "Chicken Male"
+    },
+    {
+      "path": "icons/Animals/SPR_Icon_Animals_Garoupa.png",
+      "folder": "Animals",
+      "file": "SPR_Icon_Animals_Garoupa.png",
+      "label": "Garoupa"
+    },
+    {
+      "path": "icons/Animals/SPR_Icon_Animals_Sheep_Female.png",
+      "folder": "Animals",
+      "file": "SPR_Icon_Animals_Sheep_Female.png",
+      "label": "Sheep Female"
+    },
+    {
+      "path": "icons/Animals/SPR_Icon_Animals_Sheep_Infant.png",
+      "folder": "Animals",
+      "file": "SPR_Icon_Animals_Sheep_Infant.png",
+      "label": "Sheep Infant"
+    },
+    {
+      "path": "icons/Animals/SPR_Icon_Animals_Sheep_Male.png",
+      "folder": "Animals",
+      "file": "SPR_Icon_Animals_Sheep_Male.png",
+      "label": "Sheep Male"
+    },
+    {
+      "path": "icons/Animals/SPR_Icon_ingredient_Mystic_Fish.png",
+      "folder": "Animals",
+      "file": "SPR_Icon_ingredient_Mystic_Fish.png",
+      "label": "Mystic Fish"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_AjudanteOvelheiro.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_AjudanteOvelheiro.png",
+      "label": "Ajudante Ovelheiro"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Artesa.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Artesa.png",
+      "label": "Artesa"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Artista.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Artista.png",
+      "label": "Artista"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Barqueira.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Barqueira.png",
+      "label": "Barqueira"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Benzedeira.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Benzedeira.png",
+      "label": "Benzedeira"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Botanista.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Botanista.png",
+      "label": "Botanista"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Caipora.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Caipora.png",
+      "label": "Caipora"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Carpinteira.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Carpinteira.png",
+      "label": "Carpinteira"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_EstudanteDeErvas.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_EstudanteDeErvas.png",
+      "label": "Estudante De Ervas"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Ferreiro.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Ferreiro.png",
+      "label": "Ferreiro"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Gaucho.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Gaucho.png",
+      "label": "Gaucho"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_GauchoBoat.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_GauchoBoat.png",
+      "label": "Gaucho Boat"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_GauchoCusco.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_GauchoCusco.png",
+      "label": "Gaucho Cusco"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Granjeiro.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Granjeiro.png",
+      "label": "Granjeiro"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Madereiro.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Madereiro.png",
+      "label": "Madereiro"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Marceneira.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Marceneira.png",
+      "label": "Marceneira"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Marisqueira.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Marisqueira.png",
+      "label": "Marisqueira"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Mercador.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Mercador.png",
+      "label": "Mercador"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Minerador.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Minerador.png",
+      "label": "Minerador"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Ovelheiro.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Ovelheiro.png",
+      "label": "Ovelheiro"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Pescador.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Pescador.png",
+      "label": "Pescador"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Prenda.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Prenda.png",
+      "label": "Prenda"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Remador.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Remador.png",
+      "label": "Remador"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Ribeirinha.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Ribeirinha.png",
+      "label": "Ribeirinha"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Saci.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Saci.png",
+      "label": "Saci"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_SaciCorrupted.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_SaciCorrupted.png",
+      "label": "Saci Corrupted"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Trovador.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Trovador.png",
+      "label": "Trovador"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Vaqueiro.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Vaqueiro.png",
+      "label": "Vaqueiro"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_ViajanteCampos.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_ViajanteCampos.png",
+      "label": "Viajante Campos"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_ViajanteLagoa.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_ViajanteLagoa.png",
+      "label": "Viajante Lagoa"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_ViajanteMata.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_ViajanteMata.png",
+      "label": "Viajante Mata"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Viajantes.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Viajantes.png",
+      "label": "Viajantes"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Violinista.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Violinista.png",
+      "label": "Violinista"
+    },
+    {
+      "path": "icons/Characters/SPR_Icon_Character_Vizinha.png",
+      "folder": "Characters",
+      "file": "SPR_Icon_Character_Vizinha.png",
+      "label": "Vizinha"
+    },
+    {
+      "path": "icons/General/SPR_Icon_Benevolence01.png",
+      "folder": "General",
+      "file": "SPR_Icon_Benevolence01.png",
+      "label": "Benevolence01"
+    },
+    {
+      "path": "icons/General/SPR_Icon_Benevolence02.png",
+      "folder": "General",
+      "file": "SPR_Icon_Benevolence02.png",
+      "label": "Benevolence02"
+    },
+    {
+      "path": "icons/General/SPR_Icon_Benevolence03.png",
+      "folder": "General",
+      "file": "SPR_Icon_Benevolence03.png",
+      "label": "Benevolence03"
+    },
+    {
+      "path": "icons/General/SPR_Icon_Biome01.png",
+      "folder": "General",
+      "file": "SPR_Icon_Biome01.png",
+      "label": "Biome01"
+    },
+    {
+      "path": "icons/General/SPR_Icon_Biome02.png",
+      "folder": "General",
+      "file": "SPR_Icon_Biome02.png",
+      "label": "Biome02"
+    },
+    {
+      "path": "icons/General/SPR_Icon_Biome03.png",
+      "folder": "General",
+      "file": "SPR_Icon_Biome03.png",
+      "label": "Biome03"
+    },
+    {
+      "path": "icons/General/SPR_Icon_Coin.png",
+      "folder": "General",
+      "file": "SPR_Icon_Coin.png",
+      "label": "Coin"
+    },
+    {
+      "path": "icons/General/SPR_Icon_Crafting.png",
+      "folder": "General",
+      "file": "SPR_Icon_Crafting.png",
+      "label": "Crafting"
+    },
+    {
+      "path": "icons/General/SPR_Icon_Credits.png",
+      "folder": "General",
+      "file": "SPR_Icon_Credits.png",
+      "label": "Credits"
+    },
+    {
+      "path": "icons/General/SPR_Icon_FigSprout.png",
+      "folder": "General",
+      "file": "SPR_Icon_FigSprout.png",
+      "label": "Fig Sprout"
+    },
+    {
+      "path": "icons/General/SPR_Icon_Quests.png",
+      "folder": "General",
+      "file": "SPR_Icon_Quests.png",
+      "label": "Quests"
+    },
+    {
+      "path": "icons/General/SPR_Tap_Icon.png",
+      "folder": "General",
+      "file": "SPR_Tap_Icon.png",
+      "label": "Tap Icon"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Blueprint.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Blueprint.png",
+      "label": "Blueprint"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_BrokenAccordion.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_BrokenAccordion.png",
+      "label": "Broken Accordion"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_HealingPlants.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_HealingPlants.png",
+      "label": "Healing Plants"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_BananaAndBergamot.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_BananaAndBergamot.png",
+      "label": "Banana And Bergamot"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_BananaAndSalt.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_BananaAndSalt.png",
+      "label": "Banana And Salt"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_BananaAndSaltAndCandleAndGreenMedicine.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_BananaAndSaltAndCandleAndGreenMedicine.png",
+      "label": "Banana And Salt And Candle And Green Medicine"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_BigStone.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_BigStone.png",
+      "label": "Big Stone"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_ButiaAndBergamot.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_ButiaAndBergamot.png",
+      "label": "Butia And Bergamot"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_ButiaAndGrape.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_ButiaAndGrape.png",
+      "label": "Butia And Grape"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Candle.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Candle.png",
+      "label": "Candle"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_CandleAndGreenLeafs.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_CandleAndGreenLeafs.png",
+      "label": "Candle And Green Leafs"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_CandleAndYellowMedicine.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_CandleAndYellowMedicine.png",
+      "label": "Candle And Yellow Medicine"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_CassavaAndPinion.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_CassavaAndPinion.png",
+      "label": "Cassava And Pinion"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_CassavaAndPinionAndWheat.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_CassavaAndPinionAndWheat.png",
+      "label": "Cassava And Pinion And Wheat"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Cheese.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Cheese.png",
+      "label": "Cheese"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_CheeseAndMateDrink.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_CheeseAndMateDrink.png",
+      "label": "Cheese And Mate Drink"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_ChimarraoIngredients.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_ChimarraoIngredients.png",
+      "label": "Chimarrao Ingredients"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Clay.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Clay.png",
+      "label": "Clay"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_ClayTile.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_ClayTile.png",
+      "label": "Clay Tile"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_ClayTileAndStoneBricks.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_ClayTileAndStoneBricks.png",
+      "label": "Clay Tile And Stone Bricks"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Clay_Jar.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Clay_Jar.png",
+      "label": "Clay Jar"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_CoarseSalt.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_CoarseSalt.png",
+      "label": "Coarse Salt"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Cuca.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Cuca.png",
+      "label": "Cuca"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_CucaAndSalami.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_CucaAndSalami.png",
+      "label": "Cuca And Salami"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Egg.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Egg.png",
+      "label": "Egg"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_EggAndFish.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_EggAndFish.png",
+      "label": "Egg And Fish"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_EggAndWheat.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_EggAndWheat.png",
+      "label": "Egg And Wheat"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Fabric.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Fabric.png",
+      "label": "Fabric"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_FarmFoods.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_FarmFoods.png",
+      "label": "Farm Foods"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_FarmProducts.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_FarmProducts.png",
+      "label": "Farm Products"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Fertilizer.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Fertilizer.png",
+      "label": "Fertilizer"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_FiberFabric.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_FiberFabric.png",
+      "label": "Fiber Fabric"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_FiberFabricAndIronPiece.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_FiberFabricAndIronPiece.png",
+      "label": "Fiber Fabric And Iron Piece"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_FiberRope.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_FiberRope.png",
+      "label": "Fiber Rope"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_FiberRopeAndFabric.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_FiberRopeAndFabric.png",
+      "label": "Fiber Rope And Fabric"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Flour.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Flour.png",
+      "label": "Flour"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Fruits.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Fruits.png",
+      "label": "Fruits"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_GearAndNail.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_GearAndNail.png",
+      "label": "Gear And Nail"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Gourd.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Gourd.png",
+      "label": "Gourd"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_GourdAndMateDrinkStraw.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_GourdAndMateDrinkStraw.png",
+      "label": "Gourd And Mate Drink Straw"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_GourdAndWoodBoard.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_GourdAndWoodBoard.png",
+      "label": "Gourd And Wood Board"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Grass.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Grass.png",
+      "label": "Grass"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_GrassString.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_GrassString.png",
+      "label": "Grass String"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_GreenInkAndYellowInk.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_GreenInkAndYellowInk.png",
+      "label": "Green Ink And Yellow Ink"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_GreenLeafs.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_GreenLeafs.png",
+      "label": "Green Leafs"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_GreenMedicine.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_GreenMedicine.png",
+      "label": "Green Medicine"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_GroundMateLeaves.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_GroundMateLeaves.png",
+      "label": "Ground Mate Leaves"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Hammer_Head.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Hammer_Head.png",
+      "label": "Hammer Head"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_HotCoal.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_HotCoal.png",
+      "label": "Hot Coal"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_IronPiece.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_IronPiece.png",
+      "label": "Iron Piece"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_IronPieceAndFiberRope.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_IronPieceAndFiberRope.png",
+      "label": "Iron Piece And Fiber Rope"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_IronPieceAndNail.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_IronPieceAndNail.png",
+      "label": "Iron Piece And Nail"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_IronPieceAndNailAndGear.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_IronPieceAndNailAndGear.png",
+      "label": "Iron Piece And Nail And Gear"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Leather.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Leather.png",
+      "label": "Leather"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_LeatherAndFiberFabric.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_LeatherAndFiberFabric.png",
+      "label": "Leather And Fiber Fabric"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Log.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Log.png",
+      "label": "Log"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_MateDrink.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_MateDrink.png",
+      "label": "Mate Drink"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_MateDrinkAndCoinAndMysticLog.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_MateDrinkAndCoinAndMysticLog.png",
+      "label": "Mate Drink And Coin And Mystic Log"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_MateDrinkStraw.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_MateDrinkStraw.png",
+      "label": "Mate Drink Straw"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Medicinal_Herb_A.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Medicinal_Herb_A.png",
+      "label": "Medicinal Herb A"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Medicinal_Herb_B.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Medicinal_Herb_B.png",
+      "label": "Medicinal Herb B"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Medicinal_Herb_C.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Medicinal_Herb_C.png",
+      "label": "Medicinal Herb C"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Milk.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Milk.png",
+      "label": "Milk"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_MysticBamboo.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_MysticBamboo.png",
+      "label": "Mystic Bamboo"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_MysticBambooAndRoseBoquetAndCoin.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_MysticBambooAndRoseBoquetAndCoin.png",
+      "label": "Mystic Bamboo And Rose Boquet And Coin"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_MysticCrystal.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_MysticCrystal.png",
+      "label": "Mystic Crystal"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_MysticFishAndMysticCrystalAndCoin.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_MysticFishAndMysticCrystalAndCoin.png",
+      "label": "Mystic Fish And Mystic Crystal And Coin"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_MysticFragment.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_MysticFragment.png",
+      "label": "Mystic Fragment"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_MysticLog.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_MysticLog.png",
+      "label": "Mystic Log"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_MysticMaterials.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_MysticMaterials.png",
+      "label": "Mystic Materials"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Nails.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Nails.png",
+      "label": "Nails"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Orange_Wool.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Orange_Wool.png",
+      "label": "Orange Wool"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_RawHide.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_RawHide.png",
+      "label": "Raw Hide"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_RawMeat.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_RawMeat.png",
+      "label": "Raw Meat"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_RawMeatAndGrainSalt.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_RawMeatAndGrainSalt.png",
+      "label": "Raw Meat And Grain Salt"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_RedLeafs.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_RedLeafs.png",
+      "label": "Red Leafs"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_RedLeafsAndRedInk.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_RedLeafsAndRedInk.png",
+      "label": "Red Leafs And Red Ink"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_RedMedicine.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_RedMedicine.png",
+      "label": "Red Medicine"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Reeds.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Reeds.png",
+      "label": "Reeds"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_RoastMeat.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_RoastMeat.png",
+      "label": "Roast Meat"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Rose.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Rose.png",
+      "label": "Rose"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_RoseAndClayJar.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_RoseAndClayJar.png",
+      "label": "Rose And Clay Jar"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_RoseAndClayJarAndGrassString.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_RoseAndClayJarAndGrassString.png",
+      "label": "Rose And Clay Jar And Grass String"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Salami.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Salami.png",
+      "label": "Salami"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_ScrapMetal.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_ScrapMetal.png",
+      "label": "Scrap Metal"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_ScrapMetalAndFiberRope.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_ScrapMetalAndFiberRope.png",
+      "label": "Scrap Metal And Fiber Rope"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_SmallStone.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_SmallStone.png",
+      "label": "Small Stone"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Soup.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Soup.png",
+      "label": "Soup"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_StoneBricks.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_StoneBricks.png",
+      "label": "Stone Bricks"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_StrongLogAndFiberRope.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_StrongLogAndFiberRope.png",
+      "label": "Strong Log And Fiber Rope"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_SupplyBag.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_SupplyBag.png",
+      "label": "Supply Bag"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Vegetable_Wax.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Vegetable_Wax.png",
+      "label": "Vegetable Wax"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_WoodBoard.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_WoodBoard.png",
+      "label": "Wood Board"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_WoodBoardAndBlueInk.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_WoodBoardAndBlueInk.png",
+      "label": "Wood Board And Blue Ink"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_WoodBoardAndClayTile.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_WoodBoardAndClayTile.png",
+      "label": "Wood Board And Clay Tile"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_WoodBoardAndNailAndStoneBrick.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_WoodBoardAndNailAndStoneBrick.png",
+      "label": "Wood Board And Nail And Stone Brick"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_WoodBoardAndYellowInkAndGreenInk.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_WoodBoardAndYellowInkAndGreenInk.png",
+      "label": "Wood Board And Yellow Ink And Green Ink"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_WoodSticks.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_WoodSticks.png",
+      "label": "Wood Sticks"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_Wool.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_Wool.png",
+      "label": "Wool"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_WoolBall.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_WoolBall.png",
+      "label": "Wool Ball"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_WoolBallOrange.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_WoolBallOrange.png",
+      "label": "Wool Ball Orange"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_WoolBallOrangeAndFiberRope.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_WoolBallOrangeAndFiberRope.png",
+      "label": "Wool Ball Orange And Fiber Rope"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_YellowLeafs.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_YellowLeafs.png",
+      "label": "Yellow Leafs"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_YellowMedicine.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_YellowMedicine.png",
+      "label": "Yellow Medicine"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Ingredient_YerbaTreeLeaf.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Ingredient_YerbaTreeLeaf.png",
+      "label": "Yerba Tree Leaf"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_MedicinesAndPots.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_MedicinesAndPots.png",
+      "label": "Medicines And Pots"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_Wheat.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_Wheat.png",
+      "label": "Wheat"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_ingredient_Banana.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_ingredient_Banana.png",
+      "label": "Banana"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_ingredient_Grape.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_ingredient_Grape.png",
+      "label": "Grape"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_ingredient_RoseBouquet.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_ingredient_RoseBouquet.png",
+      "label": "Rose Bouquet"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_ingredient_amethyst.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_ingredient_amethyst.png",
+      "label": "amethyst"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_ingredient_bergamot.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_ingredient_bergamot.png",
+      "label": "bergamot"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_ingredient_butia.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_ingredient_butia.png",
+      "label": "butia"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_ingredient_cassava.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_ingredient_cassava.png",
+      "label": "cassava"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_ingredient_dye_bottle_blue.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_ingredient_dye_bottle_blue.png",
+      "label": "dye bottle blue"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_ingredient_dye_bottle_green.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_ingredient_dye_bottle_green.png",
+      "label": "dye bottle green"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_ingredient_dye_bottle_purple.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_ingredient_dye_bottle_purple.png",
+      "label": "dye bottle purple"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_ingredient_dye_bottle_red.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_ingredient_dye_bottle_red.png",
+      "label": "dye bottle red"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_ingredient_dye_bottle_yellow.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_ingredient_dye_bottle_yellow.png",
+      "label": "dye bottle yellow"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_ingredient_gears.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_ingredient_gears.png",
+      "label": "gears"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_ingredient_iron_ore.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_ingredient_iron_ore.png",
+      "label": "iron ore"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_ingredient_pinion.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_ingredient_pinion.png",
+      "label": "pinion"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_ingredient_roseTissue.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_ingredient_roseTissue.png",
+      "label": "rose Tissue"
+    },
+    {
+      "path": "icons/Ingredients/SPR_Icon_ingredient_strong_log.png",
+      "folder": "Ingredients",
+      "file": "SPR_Icon_ingredient_strong_log.png",
+      "label": "strong log"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_AllMedicinalHerb.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_AllMedicinalHerb.png",
+      "label": "All Medicinal Herb"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Bell.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Bell.png",
+      "label": "Bell"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Boat_LVL1.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Boat_LVL1.png",
+      "label": "Boat LVL1"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Boat_LVL2.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Boat_LVL2.png",
+      "label": "Boat LVL2"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Boat_LVL3.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Boat_LVL3.png",
+      "label": "Boat LVL3"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Boat_LVL4.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Boat_LVL4.png",
+      "label": "Boat LVL4"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Boat_Upgrade.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Boat_Upgrade.png",
+      "label": "Boat Upgrade"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Boat_V2.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Boat_V2.png",
+      "label": "Boat V2"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_BotanistsPots.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_BotanistsPots.png",
+      "label": "Botanists Pots"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Carranca.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Carranca.png",
+      "label": "Carranca"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Compass.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Compass.png",
+      "label": "Compass"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Corruption.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Corruption.png",
+      "label": "Corruption"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_FastTravelBase.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_FastTravelBase.png",
+      "label": "Fast Travel Base"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_FigAmulet.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_FigAmulet.png",
+      "label": "Fig Amulet"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_FigSeed_Bioma01.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_FigSeed_Bioma01.png",
+      "label": "Fig Seed Bioma01"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_FigSeed_Bioma02.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_FigSeed_Bioma02.png",
+      "label": "Fig Seed Bioma02"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_FigSeed_Bioma03.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_FigSeed_Bioma03.png",
+      "label": "Fig Seed Bioma03"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Flyer.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Flyer.png",
+      "label": "Flyer"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Gate.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Gate.png",
+      "label": "Gate"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_JarWithCandles.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_JarWithCandles.png",
+      "label": "Jar With Candles"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Lantern.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Lantern.png",
+      "label": "Lantern"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Placeable_Barbecue_Table.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Placeable_Barbecue_Table.png",
+      "label": "Barbecue Table"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Placeable_Blacksmith.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Placeable_Blacksmith.png",
+      "label": "Blacksmith"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Placeable_Boat.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Placeable_Boat.png",
+      "label": "Boat"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Placeable_CattleBarn.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Placeable_CattleBarn.png",
+      "label": "Cattle Barn"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Placeable_Chicken_Barn.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Placeable_Chicken_Barn.png",
+      "label": "Chicken Barn"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Placeable_Fireplace.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Placeable_Fireplace.png",
+      "label": "Fireplace"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Placeable_HousewithDoor.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Placeable_HousewithDoor.png",
+      "label": "Housewith Door"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Placeable_Workshop_Craftsman.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Placeable_Workshop_Craftsman.png",
+      "label": "Workshop Craftsman"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Placeable_Workshop_Weaver.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Placeable_Workshop_Weaver.png",
+      "label": "Workshop Weaver"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_PoolOfCorruption.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_PoolOfCorruption.png",
+      "label": "Pool Of Corruption"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_SaciHood.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_SaciHood.png",
+      "label": "Saci Hood"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_SymbolProtection.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_SymbolProtection.png",
+      "label": "Symbol Protection"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_TapeMeasure.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_TapeMeasure.png",
+      "label": "Tape Measure"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_TotemChimarrao.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_TotemChimarrao.png",
+      "label": "Totem Chimarrao"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Vine.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Vine.png",
+      "label": "Vine"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_Wagon.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_Wagon.png",
+      "label": "Wagon"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_WarpCave.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_WarpCave.png",
+      "label": "Warp Cave"
+    },
+    {
+      "path": "icons/Missions/SPR_Icon_WarpCave_Open.png",
+      "folder": "Missions",
+      "file": "SPR_Icon_WarpCave_Open.png",
+      "label": "Warp Cave Open"
+    },
+    {
+      "path": "icons/Missions/SPR_Inhabitants.png",
+      "folder": "Missions",
+      "file": "SPR_Inhabitants.png",
+      "label": "Inhabitants"
+    },
+    {
+      "path": "icons/Tools/SPR_Icon_Tool_Accordion.png",
+      "folder": "Tools",
+      "file": "SPR_Icon_Tool_Accordion.png",
+      "label": "Accordion"
+    },
+    {
+      "path": "icons/Tools/SPR_Icon_Tool_Basket.png",
+      "folder": "Tools",
+      "file": "SPR_Icon_Tool_Basket.png",
+      "label": "Basket"
+    },
+    {
+      "path": "icons/Tools/SPR_Icon_Tool_Bucket.png",
+      "folder": "Tools",
+      "file": "SPR_Icon_Tool_Bucket.png",
+      "label": "Bucket"
+    },
+    {
+      "path": "icons/Tools/SPR_Icon_Tool_FishingRod.png",
+      "folder": "Tools",
+      "file": "SPR_Icon_Tool_FishingRod.png",
+      "label": "Fishing Rod"
+    },
+    {
+      "path": "icons/Tools/SPR_Icon_Tool_Iron_Axe.png",
+      "folder": "Tools",
+      "file": "SPR_Icon_Tool_Iron_Axe.png",
+      "label": "Iron Axe"
+    },
+    {
+      "path": "icons/Tools/SPR_Icon_Tool_Iron_Machete.png",
+      "folder": "Tools",
+      "file": "SPR_Icon_Tool_Iron_Machete.png",
+      "label": "Iron Machete"
+    },
+    {
+      "path": "icons/Tools/SPR_Icon_Tool_Iron_Pickaxe.png",
+      "folder": "Tools",
+      "file": "SPR_Icon_Tool_Iron_Pickaxe.png",
+      "label": "Iron Pickaxe"
+    },
+    {
+      "path": "icons/Tools/SPR_Icon_Tool_Jar.png",
+      "folder": "Tools",
+      "file": "SPR_Icon_Tool_Jar.png",
+      "label": "Jar"
+    },
+    {
+      "path": "icons/Tools/SPR_Icon_Tool_LeatherLasso.png",
+      "folder": "Tools",
+      "file": "SPR_Icon_Tool_LeatherLasso.png",
+      "label": "Leather Lasso"
+    },
+    {
+      "path": "icons/Tools/SPR_Icon_Tool_Mystic_Axe.png",
+      "folder": "Tools",
+      "file": "SPR_Icon_Tool_Mystic_Axe.png",
+      "label": "Mystic Axe"
+    },
+    {
+      "path": "icons/Tools/SPR_Icon_Tool_Mystic_Machete.png",
+      "folder": "Tools",
+      "file": "SPR_Icon_Tool_Mystic_Machete.png",
+      "label": "Mystic Machete"
+    },
+    {
+      "path": "icons/Tools/SPR_Icon_Tool_Mystic_Pickaxe.png",
+      "folder": "Tools",
+      "file": "SPR_Icon_Tool_Mystic_Pickaxe.png",
+      "label": "Mystic Pickaxe"
+    },
+    {
+      "path": "icons/Tools/SPR_Icon_Tool_MythicalRod.png",
+      "folder": "Tools",
+      "file": "SPR_Icon_Tool_MythicalRod.png",
+      "label": "Mythical Rod"
+    },
+    {
+      "path": "icons/Tools/SPR_Icon_Tool_Repair_Hammer.png",
+      "folder": "Tools",
+      "file": "SPR_Icon_Tool_Repair_Hammer.png",
+      "label": "Repair Hammer"
+    },
+    {
+      "path": "icons/Tools/SPR_Icon_Tool_RustyAxe.png",
+      "folder": "Tools",
+      "file": "SPR_Icon_Tool_RustyAxe.png",
+      "label": "Rusty Axe"
+    },
+    {
+      "path": "icons/Tools/SPR_Icon_Tool_Sheep_Scissor.png",
+      "folder": "Tools",
+      "file": "SPR_Icon_Tool_Sheep_Scissor.png",
+      "label": "Sheep Scissor"
+    },
+    {
+      "path": "icons/Tools/SPR_Icon_Tool_Stone_Axe.png",
+      "folder": "Tools",
+      "file": "SPR_Icon_Tool_Stone_Axe.png",
+      "label": "Stone Axe"
+    },
+    {
+      "path": "icons/Tools/SPR_Icon_Tool_Stone_Machete.png",
+      "folder": "Tools",
+      "file": "SPR_Icon_Tool_Stone_Machete.png",
+      "label": "Stone Machete"
+    },
+    {
+      "path": "icons/Tools/SPR_Icon_Tool_Stone_Pickaxe.png",
+      "folder": "Tools",
+      "file": "SPR_Icon_Tool_Stone_Pickaxe.png",
+      "label": "Stone Pickaxe"
+    },
+    {
+      "path": "icons/Tools/SPR_Icon_Tool_Torch.png",
+      "folder": "Tools",
+      "file": "SPR_Icon_Tool_Torch.png",
+      "label": "Torch"
+    },
+    {
+      "path": "icons/Tools/SPR_Icon_Tool_Whistle_Cattle.png",
+      "folder": "Tools",
+      "file": "SPR_Icon_Tool_Whistle_Cattle.png",
+      "label": "Whistle Cattle"
+    },
+    {
+      "path": "icons/Tools/SPR_Icon_Tool_Whistle_Chicken.png",
+      "folder": "Tools",
+      "file": "SPR_Icon_Tool_Whistle_Chicken.png",
+      "label": "Whistle Chicken"
+    },
+    {
+      "path": "icons/Tools/SPR_Icon_Tool_Whistle_Sheep.png",
+      "folder": "Tools",
+      "file": "SPR_Icon_Tool_Whistle_Sheep.png",
+      "label": "Whistle Sheep"
+    }
+  ]
+}

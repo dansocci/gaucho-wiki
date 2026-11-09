@@ -1,0 +1,100 @@
+﻿receita,produto_final,quantidade_produzida,ingrediente,quantidade_necessaria,nao_consumir,arquivo_receita
+Ball of Wool for Wool,Ball of Wool,1,Wool,2,False,SO_Ball_of_Wool_for_Wool_Recipe.asset
+Rose and Rose Tissue for Rose Bouquet,Rose Bouquet,1,Rose,3,False,SO_Rose_and_Rose_Tissue_for_Rose_Bouquet_Recipe.asset
+Rose and Rose Tissue for Rose Bouquet,Rose Bouquet,1,Rose Tissue,1,False,SO_Rose_and_Rose_Tissue_for_Rose_Bouquet_Recipe.asset
+Rose for Dye Bottle Red,Dye Bottle Red,1,Rose,4,False,SO_Rose_for_Dye_Bottle_Red_Recipe.asset
+Coin for Cuca,Coin,1,Cuca,1,False,SO_Coin_for_Cuca_Recipe.asset
+Cassava for Coin,Cassava,1,Coin,3,False,SO_Cassava_for_Coin_Recipe.asset
+Coin for Fiber Fabric,Coin,1,Fiber Fabric,1,False,SO_Coin_for_Fiber_Fabric_Recipe.asset
+Red Medicinal Leaves for Echinacea,Red Leaves,1,Medicinal Herb Red Echinacea,2,False,SO_Red_Medicinal_Leaves_for_Echinacea_Recipe.asset
+Orange Wool for Wool and Dye Bottle Yellow,Orange Wool,1,Wool,1,False,SO_Orange_Wool_for_Wool_and_Dye_Bottle_Yellow_Recipe.asset
+Orange Wool for Wool and Dye Bottle Yellow,Orange Wool,1,Dye Bottle Yellow,1,False,SO_Orange_Wool_for_Wool_and_Dye_Bottle_Yellow_Recipe.asset
+Wheat for Flour,Flour,1,Wheat,2,False,SO_Wheat_for_Flour_Recipe.asset
+Dye Bottle Yellow,Dye Bottle Yellow,1,Medicinal Herb White Chamomile,3,False,SO_Dye_Bottle_Yellow_Recipe.asset
+Coin for Leather,Coin,1,Leather,1,False,SO_Coin_for_Leather_Recipe.asset
+Leather for Raw Hide,Leather,1,Raw Hide,2,False,SO_Leather_for_Raw_Hide_Recipe.asset
+Grain Salt for Coin,Grain Salt,1,Coin,2,False,SO_Grain_Salt_for_Coin_Recipe.asset
+Ball of Wool Orange for Orange Wool,Ball of Wool Orange,1,Orange Wool,1,False,SO_Ball_of_Wool_Orange_for_Orange_Wool_Recipe.asset
+Yellow Medicinal Leaves for Calendula,Yellow Leaves,1,Medicinal Herb Orange Calendula,2,False,SO_Yellow_Medicinal_Leaves_for_Calendula_Recipe.asset
+Mate Drink for Mate Drink Straw and Gourd,Mate Drink,1,Mate Drink Straw,1,False,SO_Mate_Drink_for_Mate_Drink_Straw_and_Gourd_Recipe.asset
+Mate Drink for Mate Drink Straw and Gourd,Mate Drink,1,Gourd,1,False,SO_Mate_Drink_for_Mate_Drink_Straw_and_Gourd_Recipe.asset
+Mate Drink for Mate Drink Straw and Gourd,Mate Drink,1,Yerba Tree Leaf,3,False,SO_Mate_Drink_for_Mate_Drink_Straw_and_Gourd_Recipe.asset
+Coin for Candle,Coin,1,Candle,1,False,SO_Coin_for_Candle_Recipe.asset
+Coin for Red Medicinal Leaves,Coin,1,Red Leaves,4,False,SO_Coin_for_Red_Medicinal_Leaves_Recipe.asset
+Mate Drink Straw for Iron Piece,Mate Drink Straw,1,Iron Piece,1,False,SO_Mate_Drink_Straw_for_Iron_Piece_Recipe.asset
+Dye Bottle Blue for Grape,Dye Bottle Blue,1,Grape,2,False,SO_Dye_Bottle_Blue_for_Grape_Recipe.asset
+"Egg, Milk and Wheat for Cuca",Cuca,1,Egg,2,False,SO_Egg__Milk_and_Wheat_for_Cuca_Recipe.asset
+"Egg, Milk and Wheat for Cuca",Cuca,1,Milk,2,False,SO_Egg__Milk_and_Wheat_for_Cuca_Recipe.asset
+"Egg, Milk and Wheat for Cuca",Cuca,1,Wheat,2,False,SO_Egg__Milk_and_Wheat_for_Cuca_Recipe.asset
+Coin for Wool,Coin,1,Wool,1,False,SO_Coin_for_Wool_Recipe.asset
+Yellow Medicine for Yellow Medicinal Leaves,Yellow Medicine,1,Yellow Leaves,1,False,SO_Yellow_Medicine_for_Yellow_Medicinal_Leaves_Recipe.asset
+Mythical Axe for Mystic Fragment and Strong Log,Mythical Axe,1,Mystic Fragment,10,False,SO_Mythical_Axe_for_Mystic_Fragment_and_Strong_Log_Recipe.asset
+Mythical Axe for Mystic Fragment and Strong Log,Mythical Axe,1,Strong Log,10,False,SO_Mythical_Axe_for_Mystic_Fragment_and_Strong_Log_Recipe.asset
+Mythical Axe for Mystic Fragment and Strong Log,Mythical Axe,1,Iron Axe,1,False,SO_Mythical_Axe_for_Mystic_Fragment_and_Strong_Log_Recipe.asset
+Coin for Dye Bottle Green,Coin,3,Dye Bottle Green,1,False,SO_Coin_for_Dye_Bottle_Green_Recipe.asset
+Mythical Pickaxe for Mystic Fragment and Stone Brick,Mythical Pickaxe,1,Mystic Fragment,10,False,SO_Mythical_Pickaxe_for_Mystic_Fragment_and_Stone_Brick_Recipe.asset
+Mythical Pickaxe for Mystic Fragment and Stone Brick,Mythical Pickaxe,1,Stone Brick,10,False,SO_Mythical_Pickaxe_for_Mystic_Fragment_and_Stone_Brick_Recipe.asset
+Mythical Pickaxe for Mystic Fragment and Stone Brick,Mythical Pickaxe,1,Iron Pickaxe,1,False,SO_Mythical_Pickaxe_for_Mystic_Fragment_and_Stone_Brick_Recipe.asset
+Raw Meat for Coin,Raw Meat,5,Coin,4,False,SO_Raw_Meat_for_Coin_Recipe.asset
+Coin for Milk,Coin,1,Milk,1,False,SO_Coin_for_Milk_Recipe.asset
+Coin for Garoupa,Coin,3,Garoupa,1,False,SO_Coin_for_Garoupa_Recipe.asset
+Fiber Rope for Reeds,Fiber Rope,1,Reeds,1,False,SO_Fiber_Rope_for_Reeds_Recipe.asset
+Cow for Coin,Cow,1,Coin,30,False,SO_Cow_for_Coin_Recipe.asset
+Coin for Atum,Coin,1,Atum,1,False,SO_Coin_for_Atum_Recipe.asset
+Fiber Fabric for Fiber Rope and Ball of Wool,Fiber Fabric,1,Fiber Rope,1,False,SO_Fiber_Fabric_for_Fiber_Rope_and_Ball_of_Wool_Recipe.asset
+Fiber Fabric for Fiber Rope and Ball of Wool,Fiber Fabric,1,Ball of Wool,1,False,SO_Fiber_Fabric_for_Fiber_Rope_and_Ball_of_Wool_Recipe.asset
+Banana for Coin,Banana,1,Coin,3,False,SO_Banana_for_Coin_Recipe.asset
+Gears for Scrap Metal,Gear,1,Scrap Metal,10,False,SO_Gears_for_Scrap_Metal_Recipe.asset
+Boat Upgrade 2,Boat Upgrade 2,1,Wood Board,10,False,SO_Boat_Upgrade_2_Recipe.asset
+Boat Upgrade 2,Boat Upgrade 2,1,Gear,8,False,SO_Boat_Upgrade_2_Recipe.asset
+Boat Upgrade 2,Boat Upgrade 2,1,Leather,6,False,SO_Boat_Upgrade_2_Recipe.asset
+Bergamot for Coin,Bergamot,1,Coin,3,False,SO_Bergamot_for_Coin_Recipe.asset
+Dye Bottle Green,Dye Bottle Green,1,Yerba Tree Leaf,3,False,SO_Dye_Bottle_Green_Recipe.asset
+Amethyst for Dye Bottle Purple,Dye Bottle Purple,1,Amethyst,4,False,SO_Amethyst_for_Dye_Bottle_Purple_Recipe.asset
+Corral Blueprint for Coin,Corral HUB,1,Coin,50,False,SO_Corral_Blueprint_for_Coin_Recipe.asset
+Wood Board for Log,Wood Board,1,Log,2,False,SO_Wood_Board_for_Log_Recipe.asset
+Milk for Cheese,Cheese,1,Milk,2,False,SO_Milk_for_Cheese_Recipe.asset
+Stone Machete,Stone Machete,1,Sticks,4,False,SO_Stone_Machete_Recipe.asset
+Stone Machete,Stone Machete,1,Small Stone,4,False,SO_Stone_Machete_Recipe.asset
+Coin for Egg,Coin,1,Egg,1,False,SO_Coin_for_Egg_Recipe.asset
+Green Medicine for Green Medicinal Leaves,Green Medicine,1,Green Leaves,1,False,SO_Green_Medicine_for_Green_Medicinal_Leaves_Recipe.asset
+Stone Hammer,Stone Hammer,1,Sticks,7,False,SO_Stone_Hammer_Recipe.asset
+Stone Hammer,Stone Hammer,1,Grass,10,False,SO_Stone_Hammer_Recipe.asset
+Stone Hammer,Stone Hammer,1,Small Stone,6,False,SO_Stone_Hammer_Recipe.asset
+Nails for Iron Piece,Nail,10,Iron Piece,3,False,SO_Nails_for_Iron_Piece_Recipe.asset
+Boat Upgrade 3,Boat Upgrade 3,1,Strong Log,20,False,SO_Boat_Upgrade_3_Recipe.asset
+Boat Upgrade 3,Boat Upgrade 3,1,Nail,10,False,SO_Boat_Upgrade_3_Recipe.asset
+Boat Upgrade 3,Boat Upgrade 3,1,Leather,8,False,SO_Boat_Upgrade_3_Recipe.asset
+Boat Upgrade 4,Boat Upgrade 4,1,Mystic Bamboo,8,False,SO_Boat_Upgrade_4_Recipe.asset
+Boat Upgrade 4,Boat Upgrade 4,1,Mystic Log,10,False,SO_Boat_Upgrade_4_Recipe.asset
+Boat Upgrade 4,Boat Upgrade 4,1,Mystic Fragment,12,False,SO_Boat_Upgrade_4_Recipe.asset
+Coin for Dye Bottle Yellow,Coin,6,Dye Bottle Yellow,1,False,SO_Coin_for_Dye_Bottle_Yellow_Recipe.asset
+Clay Jar,Clay Jar,1,Clay,3,False,SO_Clay_Jar_Recipe.asset
+Pinion for Coin,Pinion,1,Coin,3,False,SO_Pinion_for_Coin_Recipe.asset
+Butia for Coin,Butia,1,Coin,3,False,SO_Butia_for_Coin_Recipe.asset
+Coin for Rose Bouquet,Coin,1,Rose Bouquet,1,False,SO_Coin_for_Rose_Bouquet_Recipe.asset
+Raw Hide for Gold Coin,Raw Hide,1,Coin,4,False,SO_Raw_Hide_for_Gold_Coin_Recipe.asset
+Grape for Coin,Grape,1,Coin,3,False,SO_Grape_for_Coin_Recipe.asset
+Grass String,Grass String,1,Grass,3,False,SO_Grass_String_Recipe.asset
+Coin for Barracuda,Coin,3,Barracuda,1,False,SO_Coin_for_Barracuda_Recipe.asset
+Sheep for Coin,Sheep,1,Coin,20,False,SO_Sheep_for_Coin_Recipe.asset
+Gourd for Wood Board and Fiber Rope,Gourd,1,Wood Board,1,False,SO_Gourd_for_Wood_Board_and_Fiber_Rope_Recipe.asset
+Gourd for Wood Board and Fiber Rope,Gourd,1,Fiber Rope,1,False,SO_Gourd_for_Wood_Board_and_Fiber_Rope_Recipe.asset
+Rose Tissue for Fiber Fabric,Rose Tissue,1,Fiber Fabric,1,False,SO_Rose_Tissue_for_Fiber_Fabric_Recipe.asset
+Coin for Anchova,Coin,1,Anchova,1,False,SO_Coin_for_Anchova_Recipe.asset
+Nails for Scrap Metal,Nail,2,Scrap Metal,10,False,SO_Nails_for_Scrap_Metal_Recipe.asset
+Green Medicinal Leaves for Grass,Green Leaves,1,Grass,2,False,SO_Green_Medicinal_Leaves_for_Grass_Recipe.asset
+Chicken for Coin,Chicken,1,Coin,12,False,SO_Chicken_for_Coin_Recipe.asset
+Red Medicine for Red Medicinal Leaves,Red Medicine,1,Red Leaves,1,False,SO_Red_Medicine_for_Red_Medicinal_Leaves_Recipe.asset
+Stone Bricks for Stone,Stone Brick,1,Stone,3,False,SO_Stone_Bricks_for_Stone_Recipe.asset
+Vegetable Wax,Vegetable Wax,1,Medicinal Herb Red Echinacea,2,False,SO_Vegetable_Wax_Recipe.asset
+Clay Tile for Dye Bottle Red and Clay,Clay Tile,1,Dye Bottle Red,1,False,SO_Clay_Tile_for_Dye_Bottle_Red_and_Clay_Recipe.asset
+Clay Tile for Dye Bottle Red and Clay,Clay Tile,1,Clay,1,False,SO_Clay_Tile_for_Dye_Bottle_Red_and_Clay_Recipe.asset
+Raw Meat and Salt for Salami,Salami,1,Raw Meat,1,False,SO_Raw_Meat_and_Salt_for_Salami_Recipe.asset
+Raw Meat and Salt for Salami,Salami,1,Grain Salt,1,False,SO_Raw_Meat_and_Salt_for_Salami_Recipe.asset
+Candle,Candle,1,Vegetable Wax,1,False,SO_Candle_Recipe.asset
+Candle,Candle,1,Grass String,1,False,SO_Candle_Recipe.asset
+Mythical Machete for Mystic Fragment and Iron Piece,Mythical Machete,1,Mystic Fragment,10,False,SO_Mythical_Machete_for_Mystic_Fragment_and_Iron_Piece_Recipe.asset
+Mythical Machete for Mystic Fragment and Iron Piece,Mythical Machete,1,Iron Piece,10,False,SO_Mythical_Machete_for_Mystic_Fragment_and_Iron_Piece_Recipe.asset
+Mythical Machete for Mystic Fragment and Iron Piece,Mythical Machete,1,Iron Machete,1,False,SO_Mythical_Machete_for_Mystic_Fragment_and_Iron_Piece_Recipe.asset
+Iron Piece for Iron Ore,Iron Piece,1,Iron Ore,5,False,SO_Iron_Piece_for_Iron_Ore_Recipe.asset
